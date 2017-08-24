@@ -1,0 +1,70 @@
+
+// Centering Columns
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+/* Default Class Values
+======================*/
+// Box ---
+$height: 100%;
+$width: 100%;
+
+// Color & Background
+$background-color: $contact-page-clr;
+
+// Positioning
+$position: absolute;
+
+// Font & Text ---
+$font-family: 'Orbitron', sans-serif;
+$font-weight: lighter;
+/*====================*/
+
+.contact {
+  height: $height;
+  width: $width;
+  background-color: $background-color;
+  font-family: $font-family;
+  font-weight: $font-weight;
+  overflow-y: auto;
+  &:before {
+    @include pseudo();
+    @include gradience($fade:0.10,$orientation: bottom-top);
+  }
+
+  &--lyt-header {
+    margin-top: 60px !important;
+  }
+
+  &--lyt-form,
+  &--lyt-fabInfoBtns,
+  &--lyt-socialLinks {
+    margin-top: 5px;
+  }
+
+  &--lyt-form {
+    h3 {
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 500;
+    }
+  }
+
+  &--lyt-form-XS-600 {
+    display: none;
+  }
+
+  &--lyt-socialLinks {
+    //margin-top: 1%;
+    margin-bottom: 5%;
+  }
+
+  @import "sections/socialLinks/scss/socialLinks.cls";
+  @import "sections/form/scss/form.cls";
+  @import "sections/fabInfoBtns/scss/fabInfoBtns.cls";
+}
+
+@import "global/contact.rspv";
+
+

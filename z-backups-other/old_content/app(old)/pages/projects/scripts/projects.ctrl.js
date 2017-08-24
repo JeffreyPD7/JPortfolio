@@ -1,0 +1,48 @@
+(function () {
+
+    "use strict";
+
+    angular
+        .module('portfolioApp').component('projects', {
+        templateUrl: 'pages/projects/projects.tpl.html'
+    })
+
+        .controller('projectsController',
+            function ($scope, $location) {
+                $scope.projectsPageLeave = function (page) {
+                    // console.log('you clicked');
+                    $('.home').css('animation', 'slideInLeft 1s ease-in');
+                    $location.path(page);
+                };
+
+                $scope.pageClass = 'projects';
+
+                // $(".projects__slides_card:nth-child(1)").hover(function() {
+                //         $(this).stop();
+                // });
+
+                setTimeout(function () {
+                    $(".projects__slides_card:nth-child(1)").hover(function () {
+                        $(this).stop();
+                    });
+
+                }, 6000);
+
+                // var delay = 10000, setTimeoutConst;
+                // $('.projects__slides_card:hover').hover(function () {
+                //     $(this).stop();
+                //
+                //     setTimeoutConst = setTimeout(function () {
+                //         $(this).stop();
+                //         // alert('Thank You!');
+                //     }, delay);
+                // });
+
+
+                $(".projects__slides_card:nth-child(1)").fadeTo(1000, 1);
+                $(".projects__slides_card:nth-child(2)").delay(1000).fadeTo(1000, 1);
+                $(".projects__slides_card:nth-child(3)").delay(2000).fadeTo(1000, 1);
+
+
+            });
+})();

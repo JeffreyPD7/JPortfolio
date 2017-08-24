@@ -1,0 +1,42 @@
+
+/* Default Class Values
+======================*/
+// Box ---
+$height: 100%;
+$width: 100%;
+
+// Color & Background
+$background-color: $home-page-clr;
+
+// Positioning
+$position: absolute;
+
+// Miscellaneous
+$overflow: hidden;
+/*====================*/
+
+
+.home {
+  position: $position;
+  height: $height;
+  width: $width;
+  background-color: $background-color;
+  overflow: $overflow;
+
+  &:before {
+    @include pseudo();
+    background: radial-gradient(rgba(white, 0.5),rgba(black, 0.1));
+    width: 100%;
+    height: 100%;
+  }
+
+  &--content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  @import "sections/scss/menu-circle.cls";
+}
+

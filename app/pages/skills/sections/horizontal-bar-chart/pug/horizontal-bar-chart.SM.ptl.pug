@@ -1,0 +1,13 @@
+mixin plug(baseCSS)
+
+    div.col-xs-12(class=baseCSS + 'horizontal-bar-chart' ng-controller='horizontalBarCtrl')
+        include ../../local/skills __slides-body/skills__slides-body.gbl.pug
+
+        h3(class=baseCSS + 'horizontal-bar-chart__h3') Dev Tools & Design
+
+        canvas.chart-horizontal-bar(id='base'
+            chart-data='data1' chart-labels='labels1' chart-options='options1'
+            chart-colors='colors1' height='250px')
+
+
+//height='220px'

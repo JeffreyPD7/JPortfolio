@@ -1,0 +1,31 @@
+mixin plug(baseCSS)
+
+    div.row
+        div.col-xs-12(class=baseCSS + 'fabInfoBtns')
+            div.row
+                div.col-xs-4(class=baseCSS + 'fabInfoBtns--btn')
+                    a(href='tel:8135150645')
+                        md-button(class='md-fab' aria-label='Eat cake')
+                            i.fa.fa-phone.fa-4x(class=baseCSS + 'fabInfoBtns__i' aria-hidden='true')
+
+                    h4(class=baseCSS + 'fabInfoBtns--btn__h4')
+                        | (813) 515-0645
+
+
+                div.col-xs-4(class=baseCSS + 'fabInfoBtns--btn')
+                    a(href='mailto:jp7portfolio@gmail.com')
+                        md-button(class='md-fab' aria-label='Eat cake')
+                            i.fa.fa-envelope.fa-4x(class=baseCSS + 'fabInfoBtns__i' aria-hidden='true')
+
+                    h4(class=baseCSS + 'fabInfoBtns--btn__h4')
+                        | jp7portfolio@ gmail.com
+
+
+                div.col-xs-4(class=baseCSS + 'fabInfoBtns--btn')
+                    a(href='https://twitter.com/jeffreypb7')
+                        md-button.col-centered(class='md-fab' aria-label='Eat cake')
+                            i.fa.fa-twitter.fa-4x(class=baseCSS + 'fabInfoBtns__i' aria-hidden='true')
+
+                    h4(class=baseCSS + 'fabInfoBtns--btn__h4')
+                        | jeffreypb7
+

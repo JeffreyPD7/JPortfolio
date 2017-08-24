@@ -1,0 +1,46 @@
+div.about(ng-controller='aboutController')
+    div.container.page_content
+        div.row
+            div.col-centered.col-xs-12.col-sm-5.col-md-3.about__title.title.about--lyt-header.animated.fadeIn
+                img(src='assets/images/about-title-tag.png' alt='')
+                h1 About
+
+        // LG - SM
+        div.row
+            div.col-sm-12.hidden-xs
+                div.row
+                    div.hidden-xs.col-sm-4.col-md-3.col-lg-4
+                        include sections/selfPortrait/pug/selfPortrait.ptl.pug
+                        +plug('about_-_')
+
+                    div.hidden-xs.col-sm-8.col-md-8.col-md-offset-1.col-lg-7.col-lg-offset-1
+                        include sections/bio/pug/bio.ptl.pug
+                        +plug('about_-_')
+
+        // XS
+        div.row
+            div.col-xs-12.hidden-sm.hidden-md.hidden-lg.about--lyt-XS
+                div.row
+                    div.col-xs-4.hidden-sm.hidden-md.hidden-lg.about--lyt-selfPortrait
+                        include sections/selfPortrait/pug/selfPortrait.ptl.pug
+                        +plug('about_-_')
+
+                    div.col-xs-8.hidden-sm.hidden-md.hidden-lg.about--lyt-bio
+                        include sections/bio/pug/bio.ptl.pug
+                        +plug('about_-_')
+
+        //// XS-480
+        div.row
+            div.col-xs-12.hidden-sm.hidden-md.hidden-lg.about--lyt-XS-480
+                div.row
+                    div.col-xs-8.col-centered.hidden-sm.hidden-md.hidden-lg.about--lyt-selfPortrait
+                        include sections/selfPortrait/pug/selfPortrait.ptl.pug
+                        +plug('about_-_')
+
+                    div.col-xs-8.col-centered.hidden-sm.hidden-md.hidden-lg.about--lyt-bio
+                        include sections/bio/pug/bio.ptl.pug
+                        +plug('about_-_')
+
+    div.return-btn(ng-click="aboutPageLeave('/home')" ng-mouseover='returnText=true'
+        ng-mouseleave='returnText=false')
+        h4(ng-show="returnText") return

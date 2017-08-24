@@ -1,0 +1,159 @@
+@import "../../../../../smacss/smacss.gbl";
+
+$shadow-blk-fade: rgba(black, 0.25);
+$shadow-blur: 1px;
+$shadow-end-distance: 4px;
+
+
+.skills__slides-body {
+
+  @include mq('tablet-sm') {
+    .left-skirt:before {
+      bottom: 4%;
+    }
+
+    .right-skirt:before {
+      top: 4%;
+    }
+  }
+
+
+
+  //@include mq('tablet-small-xs') {
+  //  .left-skirt:before {
+  //    bottom: 4%;
+  //  }
+  //
+  //  .right-skirt:before {
+  //    top: 4%;
+  //  }
+  //}
+
+}
+
+
+
+.skills_-_horizontal-bar-chart .skills__slides-body {
+  //MD
+  @include mq('desktop-md') {
+    .left-skirt:before {
+      bottom: 5%;
+    }
+
+    .right-skirt:before {
+      top: 5%;
+    }
+  }
+
+  //MD-1070 to SM-992
+  @media only screen and (max-width: 1070px) and (min-width: 992px) {
+    .left-skirt:before {
+      bottom: 4%;
+    }
+
+    .right-skirt:before {
+      top: 4%;
+    }
+  }
+
+  //SM-950 to SM-860
+  @media only screen and (max-width: 950px) and (min-width: 860px) {
+    .left-skirt:before {
+      bottom: 3.5%;
+    }
+
+    .right-skirt:before {
+      top: 3.5%;
+    }
+  }
+
+  //SM-860 to XS-768
+  @media only screen and (max-width: 860px) and (min-width: 768px) {
+    .left-skirt:before {
+      bottom: 3%;
+    }
+
+    .right-skirt:before {
+      top: 3%;
+    }
+  }
+
+  //XS-480px
+  @include mq('phone-wide') {
+    .left-skirt:before {
+      bottom: 3%;
+    }
+
+    .right-skirt:before {
+      top: 3%;
+    }
+  }
+}
+
+.skills__md-slide .skills__slides-body {
+  //MD
+  @include mq('desktop-md') {
+    .left-skirt:before {
+      bottom: 5%;
+    }
+
+    .right-skirt:before {
+      top: 5%;
+    }
+  }
+
+  //MD-1070 to SM-992
+  @media only screen and (max-width: 1070px) and (min-width: 992px) {
+    .left-skirt:before {
+      bottom: 4%;
+    }
+
+    .right-skirt:before {
+      top: 4%;
+    }
+  }
+
+  //SM-950 to SM-860
+  @media only screen and (max-width: 950px) and (min-width: 860px) {
+    .left-skirt:before {
+      bottom: 3.5%;
+    }
+
+    .right-skirt:before {
+      top: 3.5%;
+    }
+  }
+
+  //SM-860 to XS-768
+  @media only screen and (max-width: 860px) and (min-width: 768px) {
+    .left-skirt:before {
+      bottom: 3%;
+    }
+
+    .right-skirt:before {
+      top: 3%;
+    }
+  }
+
+  //XS-601px
+  @include mq('phablet') {
+    .left-skirt:before {
+      bottom: 5.5%;
+    }
+
+    .right-skirt:before {
+      top: 5.5%;
+    }
+  }
+
+  //XS-480px
+  @include mq('phone-wide') {
+    .left-skirt:before {
+      bottom: 6%;
+    }
+
+    .right-skirt:before {
+      top: 6%;
+    }
+  }
+}

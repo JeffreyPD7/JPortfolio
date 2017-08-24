@@ -1,0 +1,10 @@
+@import "../../../../../components/hot-kit/hot-kit";
+
+&__image {
+
+  @include mq('desktop-md') {
+    padding: 0;
+  }
+
+}
+

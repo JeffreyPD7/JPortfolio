@@ -1,0 +1,8 @@
+//@import "../../mixins/mixins.smcs";
+
+// Extend Value
+.about__box-shadow {
+  @include body-shadow($orientation:down,$distance:-3px);
+}
+
+

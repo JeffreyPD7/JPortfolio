@@ -1,0 +1,62 @@
+mixin plug(baseCSS)
+
+    div.row
+        div.col-xs-12.col-centered(class = baseCSS + 'slides')
+            div.row
+                div.col-xs-12.col-centered(class = baseCSS + 'slides--card').animated.slideInLeft
+                    a(href='https://codepen.io/JeffreyPD7/full/ZyJqPa/')
+                        div(class = baseCSS + 'slides--card_--_image')
+                            img(class = baseCSS + 'slides--card_--_image__img',
+                                src='assets/images/beethoven.png', alt='',
+                                height='320px', width='360px')
+
+                    div(class = baseCSS + 'slides--card_--_title')
+                        h3(class = baseCSS + 'slides--card_--_title__h3')
+                            | Beethoven Tribute
+
+                    div(class = baseCSS + 'slides--card_--_details')
+                        h3(class = baseCSS + 'slides--card_--_details__h3')
+                            | This project is an FCC challenge set to create a tribute page
+                            | utilizing only HTML and CSS
+                        i.fa.fa-bars.fa-1x(class = baseCSS + 'slides--card_--_details__i',
+                            aria-hidden='true')
+
+            div.row
+                div.col-xs-12.col-centered(class = baseCSS + 'slides--card').animated.slideInRight
+                    a(href='')
+                        div(class = baseCSS + 'slides--card_--_image')
+                            img(class = baseCSS + 'slides--card_--_image__img',
+                                src='assets/images/wnb_autosales.png', alt='',
+                                height='320px', width='360px')
+
+                        div(class = baseCSS + 'slides--card_--_title')
+                            h3(class = baseCSS + 'slides--card_--_title__h3')
+                                | White & Blue Autosales
+
+                        div(class = baseCSS + 'slides--card_--_details')
+                            h3(class = baseCSS + 'slides--card_--_details__h3')
+                                | An e-commerce car dealership website that is in the early stages,
+                                | and yet not online
+                            i.fa.fa-bars.fa-1x(class = baseCSS + 'slides--card_--_details__i',
+                                aria-hidden='true')
+
+            div.row
+                div.col-xs-12.col-centered(class = baseCSS + 'slides--card').animated.slideInDown
+                    a(href='')
+                        div(class = baseCSS + 'slides--card_--_image')
+                            img(class = baseCSS + 'slides--card_--_image__img',
+                                src='assets/images/currently_under_work.png', alt='',
+                                height='320px', width='360px')
+
+                        div(class = baseCSS + 'slides--card_--_title')
+                            h3(class = baseCSS + 'slides--card_--_title__h3')
+                                | Null
+
+                        div(class = baseCSS + 'slides--card_--_details')
+                            h3(class = baseCSS + 'slides--card_--_details__h3')
+                                | A competition web app which am working on, and can't be
+                                | presented at the moment
+                            i.fa.fa-bars.fa-1x(class = baseCSS + 'slides--card_--_details__i',
+                                aria-hidden='true')
+
+

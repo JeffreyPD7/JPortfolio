@@ -1,0 +1,86 @@
+@import "../../../../../components/hot-kit/hot-kit";
+
+
+/* Default Values
+======================*/
+// Box
+$height: auto;
+$margin-top: 12%;
+
+// Font & Text
+$text-align: center;
+/*====================*/
+
+&__socialLinks {
+  height: $height;
+  text-align: $text-align;
+  margin-top: $margin-top;
+
+  &_btns {
+    width: 47.5% !important;
+    height: 95px;
+    //width: 130px;
+    background-color: #e5e5e5;
+    text-align: center;
+    box-shadow: 0 3px 3px rgba(black, 0.3);
+    cursor: pointer;
+    //margin-top: 10px;
+
+    &:before {
+      @include pseudo();
+      @include gradience($orientation: bottom-top);
+      height: inherit;
+      width: 100%;
+      margin-left: -15px;
+    }
+
+    &:hover {
+      //height: 140px;
+      //width: 140px;
+      box-shadow: 0 3px 13px rgba(black, 0.2);
+    }
+
+    a {
+      color: inherit;
+      //text-align: center;
+    }
+
+    i {
+      //line-height: auto;
+      margin: 20px auto;
+      text-align: center;
+      vertical-align: middle;
+    }
+  }
+
+
+  // Setting margin distances between buttons
+  .row:nth-child(1) {
+    margin-bottom: 10px;
+
+    .contact__socialLinks_btns:nth-child(1) {
+      margin-right: 2.5%;
+
+      i {
+        margin-left: -4px;
+      }
+    }
+
+    .contact__socialLinks_btns:nth-child(2) {
+      margin-left: 2.5%;
+    }
+  }
+
+  .row:nth-child(2) {
+    .contact__socialLinks_btns:nth-child(1) {
+      margin-right: 2.5%;
+    }
+
+    .contact__socialLinks_btns:nth-child(2) {
+      margin-left: 2.5%;
+    }
+  }
+}
+
+// Responsive
+@import "contact__socialLinks.rspv";

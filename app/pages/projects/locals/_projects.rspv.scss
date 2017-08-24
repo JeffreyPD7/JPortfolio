@@ -1,0 +1,58 @@
+
+.projects {
+  &--detail {
+    //MD
+    @include mq('desktop-md') {
+      //margin: 0;
+    }
+
+    //SM
+    @include mq('tablet-sm') {
+      font-size: 1.2em;
+    }
+
+    //SM-850
+    @media only screen and (max-width: 850px) {
+      font-size: 1.1em;
+      width: 70%;
+    }
+
+    //XS-550
+    @media only screen and (max-width: 850px) {
+      //font-size: 1.1em;
+      width: 100%;
+      text-align: center;
+      margin: 0 !important;
+    }
+  }
+
+  &--lyt-header {
+    //MD
+    @include mq('desktop-md') {
+      margin-top: 2em;
+    }
+
+    //XS
+    @include mq('tablet-small-xs') {
+      margin-bottom: 5rem;
+    }
+  }
+
+  //Hiding and then displaying projects--lyt-XS-480
+  &--lyt-XS-480 {
+    display: none;
+  }
+
+  @include mq('phone-wide') {
+    &--lyt-XS {
+      display: none;
+    }
+
+    &--lyt-XS-480 {
+      display: block;
+    }
+  }
+}
+
+
+

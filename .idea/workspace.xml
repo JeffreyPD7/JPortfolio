@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list id="12b5d418-3b75-445f-8151-f3afd5ec1edb" name="Revert &quot;Rewriting scss to a less specific order&quot; This reverts commit c6def22" comment="Revert &quot;Rewriting scss to a less specific order&quot;&#10;&#10;This reverts commit c6def22" />
+    <list default="true" id="900c2ddf-edcc-4484-9eeb-9b98348b56fe" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pages/contact/sections/z-contact__socialLinks(BULLSHIT)/_contact__socialLinks.cls.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pages/contact/sections/z-contact__socialLinks(BULLSHIT)/_contact__socialLinks.rspv.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/pages/projects/sections/locals/_projects--container.lcl.scss" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/contact/_contact.stl.scss" afterPath="$PROJECT_DIR$/app/pages/contact/_contact.stl.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/home/_home.stl.scss" afterPath="$PROJECT_DIR$/app/pages/home/_home.stl.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/projects/_projects.stl.scss" afterPath="$PROJECT_DIR$/app/pages/projects/_projects.stl.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/skills/_skills.stl.scss" afterPath="$PROJECT_DIR$/app/pages/skills/_skills.stl.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/skills/sections/_skills-container.rspv.scss" afterPath="$PROJECT_DIR$/app/pages/skills/sections/_skills-container.rspv.scss" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Kode" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.col-xs</find>
+      <find>web-kit</find>
+      <find>-w</find>
+      <find>-moz</find>
+      <find>-web</find>
+      <find>-webk</find>
+      <find>-webkit</find>
+      <find>contactMe</find>
+      <find>tabind</find>
+      <find>col-xs</find>
+      <find>.container</find>
+      <find>col-sm</find>
+      <find>opacity</find>
+      <find>hover</find>
+      <find>browserSync</find>
+      <find>col-s</find>
+      <find>position</find>
+      <find>col-</find>
+      <find>gulp-patters</find>
+      <find>a.defer</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/gulpfile.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/pages/skills/sections/_skills.rspv.scss" />
+        <option value="$PROJECT_DIR$/app/pages/skills/sections/local/skills __slides-body/_skills __slides-body.rspv.scss" />
+        <option value="$PROJECT_DIR$/app/smacss/base/_base.smcs.scss" />
+        <option value="$PROJECT_DIR$/app/smacss/base/_typography.smcs.scss" />
+        <option value="$PROJECT_DIR$/z-backups-other/old_content/app(old)/pages/contact/contact(old).tpl.html" />
+        <option value="$PROJECT_DIR$/app/pages/contact/scripts/contact.ctrl.js" />
+        <option value="$PROJECT_DIR$/build/pages/contact.tpl.html" />
+        <option value="$PROJECT_DIR$/app/pages/contact/sections/fabInfoBtns/pug/fabInfoBtns.ptl.pug" />
+        <option value="$PROJECT_DIR$/app/pages/contact/sections/fabInfoBtns/pug/fabInfoBtns.SM.ptl.pug" />
+        <option value="$PROJECT_DIR$/app/pages/contact/sections/socialLinks/pug/solcialLinks.ptl.pug" />
+        <option value="$PROJECT_DIR$/app/pages/projects/sections/slides/pug/slides.XS.ptl.pug" />
+        <option value="$PROJECT_DIR$/app/pages/projects/sections/slides/pug/slides.ptl.pug" />
+        <option value="$PROJECT_DIR$/app/pages/projects/sections/slides/pug/slides.XS-480.ptl.pug" />
+        <option value="$PROJECT_DIR$/app/pages/about/sections/bio/pug/bio.ptl.pug" />
+        <option value="$PROJECT_DIR$/app/pages/about/sections/bio/scss/_bio.cls.scss" />
+        <option value="$PROJECT_DIR$/app/pages/about/sections/bio/scss/_bio.rspv.scss" />
+        <option value="$PROJECT_DIR$/app/pages/about/_about.stl.scss" />
+        <option value="$PROJECT_DIR$/app/master.scss" />
+        <option value="$PROJECT_DIR$/app/pages/about/about.tpl.pug" />
+        <option value="$PROJECT_DIR$/app/pages/home/home.tpl.pug" />
+        <option value="$PROJECT_DIR$/app/pages/projects/projects.tpl.pug" />
+        <option value="$PROJECT_DIR$/app/pages/skills/skills.tpl.pug" />
+        <option value="$PROJECT_DIR$/app/pages/contact/sections/fabInfoBtns/scss/_fabInfoBtns.rspv.scss" />
+        <option value="$PROJECT_DIR$/app/pages/contact/sections/fabInfoBtns/scss/_fabInfoBtns.cls.scss" />
+        <option value="$PROJECT_DIR$/app/regions/bower-lib/bower-lib_links.pug" />
+        <option value="$PROJECT_DIR$/app/regions/app/app-scripts.pug" />
+        <option value="$PROJECT_DIR$/app/regions/app/app-links.pug" />
+        <option value="$PROJECT_DIR$/app/regions/bower-lib/bower-lib_scripts.pug" />
+        <option value="$PROJECT_DIR$/app/pages/contact/sections/socialLinks/pug/solcialLinks.SM.ptl.pug" />
+        <option value="$PROJECT_DIR$/app/pages/contact/sections/form/scss/_form.cls.scss" />
+        <option value="$PROJECT_DIR$/app/pages/contact/sections/_contact__info-reference-btn.cls.scss" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/gulp.config.js" />
+        <option value="$PROJECT_DIR$/build/index.html" />
+        <option value="$PROJECT_DIR$/app/pages/contact/contact.tpl.pug" />
+        <option value="$PROJECT_DIR$/app/services/analytics.js" />
+        <option value="$PROJECT_DIR$/app/index.pug" />
+        <option value="$PROJECT_DIR$/app/regions/googleAnalytics.rgn.pug" />
+        <option value="$PROJECT_DIR$/app/pages/skills/scripts/skills_radar-chart.ctrl.js" />
+        <option value="$PROJECT_DIR$/app/pages/contact/sections/form/pug/form.ptl.pug" />
+        <option value="$PROJECT_DIR$/app/pages/contact/sections/form/pug/form.XS-600.ptl.pug" />
+        <option value="$PROJECT_DIR$/app/pages/contact/global/_contact.rspv.scss" />
+        <option value="$PROJECT_DIR$/app/pages/contact/_contact.stl.scss" />
+        <option value="$PROJECT_DIR$/app/pages/home/_home.stl.scss" />
+        <option value="$PROJECT_DIR$/app/pages/projects/locals/_projects--container.lcl.scss" />
+        <option value="$PROJECT_DIR$/app/pages/projects/locals/_projects.rspv.scss" />
+        <option value="$PROJECT_DIR$/app/pages/skills/sections/_skills-container.rspv.scss" />
+        <option value="$PROJECT_DIR$/app/pages/projects/_projects.stl.scss" />
+        <option value="$PROJECT_DIR$/app/pages/skills/_skills.stl.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <exe-path>/usr/local/bin/bower</exe-path>
+    <config-path>$PROJECT_DIR$/bower.json</config-path>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+        <tasks>
+          <GulpTaskState>
+            <task-name>serve</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>bs-reload</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>styles</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>watch</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="serve" />
+              <dependency value="watch" />
+              <dependency value="styles" />
+              <dependency value="bs-reload" />
+            </dependencies>
+            <task-name>default</task-name>
+          </GulpTaskState>
+        </tasks>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/z-backups-other/old_content/app(old)/libraries/es5-shim-master/node_modules" />
+    <handled-path value="$PROJECT_DIR$/z-backups-other/old_content/app(old)/libraries/hamburgers-master/node_modules" />
+    <handled-path value="$PROJECT_DIR$/z-backups-other/old_content/app(old)/libraries/waypoints-master/node_modules" />
+    <handled-path value="$PROJECT_DIR$/z-backups-other/old_content/build(old)/libraries/es5-shim-master/node_modules" />
+    <handled-path value="$PROJECT_DIR$/z-backups-other/old_content/build(old)/libraries/hamburgers-master/node_modules" />
+    <handled-path value="$PROJECT_DIR$/z-backups-other/old_content/build(old)/libraries/waypoints-master/node_modules" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+    <dismissed value="$PROJECT_DIR$/z-backups-other/old_content/app(old)/bower_components/chart.js/package.json" />
+    <dismissed value="$PROJECT_DIR$/z-backups-other/old_content/build(old)/bower_components/angular-chart.js/package.json" />
+    <dismissed value="$PROJECT_DIR$/z-backups-other/old_content/build(old)/bower_components/animate.css/package.json" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="24" />
+    <option name="width" value="683" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Pug/Jade</id>
+          </State>
+          <State>
+            <id>Sass/SCSS</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SassScssResolvedByNameOnly</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Kode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kode" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kode" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="pug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kode" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="regions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kode" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="smacss" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Kode" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.selected.package.jscs" value="$PROJECT_DIR$/node_modules/jscs" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration name="serve" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>serve</task>
+      </tasks>
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Gulp.js.serve" />
+      <item index="1" class="java.lang.String" itemvalue="npm.test" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="npm.test" />
+        <item index="1" class="java.lang.String" itemvalue="Gulp.js.serve" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_CLASSES" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="900c2ddf-edcc-4484-9eeb-9b98348b56fe" name="Default" comment="" />
+      <created>1498664351344</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1498664351344</updated>
+      <workItem from="1498664353331" duration="25540000" />
+      <workItem from="1498713869504" duration="4033000" />
+      <workItem from="1498749409936" duration="11105000" />
+      <workItem from="1498768518497" duration="17790000" />
+      <workItem from="1498825904680" duration="6779000" />
+      <workItem from="1498837536191" duration="26931000" />
+      <workItem from="1498912405724" duration="18295000" />
+      <workItem from="1498939308334" duration="11645000" />
+      <workItem from="1498960423360" duration="4671000" />
+      <workItem from="1499001938084" duration="19208000" />
+      <workItem from="1499045180839" duration="715000" />
+      <workItem from="1499046700737" duration="24000" />
+      <workItem from="1499047080087" duration="14743000" />
+      <workItem from="1499175722322" duration="13708000" />
+      <workItem from="1499260627201" duration="27265000" />
+      <workItem from="1499345907469" duration="26361000" />
+      <workItem from="1499433044227" duration="20794000" />
+      <workItem from="1499515388981" duration="9636000" />
+      <workItem from="1499608431373" duration="28243000" />
+      <workItem from="1499689086203" duration="3615000" />
+      <workItem from="1499713108515" duration="6659000" />
+      <workItem from="1499793257876" duration="2367000" />
+      <workItem from="1499869066575" duration="6568000" />
+      <workItem from="1499880052873" duration="507000" />
+      <workItem from="1499880586892" duration="4303000" />
+      <workItem from="1499901413661" duration="2455000" />
+      <workItem from="1499956427034" duration="11930000" />
+      <workItem from="1499992284691" duration="2538000" />
+      <workItem from="1500039834199" duration="10006000" />
+      <workItem from="1500068563889" duration="1329000" />
+      <workItem from="1500070526308" duration="3000" />
+      <workItem from="1500078597949" duration="3847000" />
+      <workItem from="1500088542493" duration="740000" />
+      <workItem from="1500089475528" duration="4226000" />
+      <workItem from="1500094915288" duration="5000" />
+      <workItem from="1500125616315" duration="8270000" />
+      <workItem from="1500160831321" duration="493000" />
+      <workItem from="1500161454029" duration="733000" />
+      <workItem from="1500162213532" duration="539000" />
+      <workItem from="1500237796308" duration="778000" />
+      <workItem from="1500242435443" duration="1888000" />
+      <workItem from="1500257742448" duration="2815000" />
+      <workItem from="1500310194217" duration="135000" />
+      <workItem from="1500310374920" duration="826000" />
+      <workItem from="1500313771310" duration="8153000" />
+      <workItem from="1500331790905" duration="4797000" />
+      <workItem from="1500374009469" duration="17989000" />
+      <workItem from="1500436198035" duration="1721000" />
+      <workItem from="1500463875535" duration="1973000" />
+      <workItem from="1500473873106" duration="11623000" />
+      <workItem from="1500497337996" duration="1841000" />
+      <workItem from="1500513593870" duration="2603000" />
+      <workItem from="1500649565216" duration="1318000" />
+      <workItem from="1500662616588" duration="949000" />
+      <workItem from="1500690412547" duration="4841000" />
+      <workItem from="1500731938896" duration="16630000" />
+      <workItem from="1500826106042" duration="5754000" />
+      <workItem from="1500842154708" duration="1062000" />
+      <workItem from="1500849247467" duration="5922000" />
+      <workItem from="1500904659816" duration="20074000" />
+      <workItem from="1500994028643" duration="1141000" />
+      <workItem from="1501012237495" duration="5783000" />
+      <workItem from="1501100853583" duration="3049000" />
+      <workItem from="1501168560890" duration="8216000" />
+      <workItem from="1501247687711" duration="7341000" />
+      <workItem from="1501332604753" duration="16487000" />
+      <workItem from="1501364434360" duration="8410000" />
+      <workItem from="1501385401927" duration="4674000" />
+      <workItem from="1501422790297" duration="14710000" />
+      <workItem from="1501499124773" duration="9244000" />
+      <workItem from="1501604011250" duration="3132000" />
+      <workItem from="1501705047822" duration="126000" />
+      <workItem from="1501707828451" duration="2807000" />
+      <workItem from="1501713670042" duration="1398000" />
+      <workItem from="1501715926065" duration="6104000" />
+      <workItem from="1501726736993" duration="7041000" />
+      <workItem from="1501734418704" duration="95000" />
+      <workItem from="1501737475533" duration="4431000" />
+      <workItem from="1501743229215" duration="635000" />
+      <workItem from="1501766623471" duration="2613000" />
+      <workItem from="1501770119373" duration="3221000" />
+      <workItem from="1501820954724" duration="6392000" />
+      <workItem from="1501855435400" duration="3135000" />
+      <workItem from="1501866753239" duration="640000" />
+      <workItem from="1501867767429" duration="12000" />
+      <workItem from="1501868075455" duration="97000" />
+      <workItem from="1501868234967" duration="817000" />
+      <workItem from="1501869653409" duration="1943000" />
+      <workItem from="1501871620353" duration="14955000" />
+      <workItem from="1501892916100" duration="6742000" />
+      <workItem from="1501960758285" duration="33000" />
+      <workItem from="1501978361558" duration="8120000" />
+      <workItem from="1501992470639" duration="221000" />
+      <workItem from="1502023993553" duration="642000" />
+      <workItem from="1502143853190" duration="10062000" />
+      <workItem from="1502164568518" duration="10000" />
+      <workItem from="1502208472281" duration="10619000" />
+      <workItem from="1502219839305" duration="12003000" />
+      <workItem from="1502277803077" duration="1518000" />
+      <workItem from="1502286073075" duration="5884000" />
+      <workItem from="1502319983682" duration="6783000" />
+      <workItem from="1502374018777" duration="19993000" />
+      <workItem from="1502421205050" duration="6378000" />
+      <workItem from="1502459502253" duration="21782000" />
+      <workItem from="1502506754733" duration="2432000" />
+      <workItem from="1502547868251" duration="20510000" />
+      <workItem from="1502581728166" duration="5569000" />
+      <workItem from="1502639438886" duration="2327000" />
+      <workItem from="1502713708970" duration="300000" />
+      <workItem from="1502739071462" duration="188000" />
+      <workItem from="1502739308284" duration="603000" />
+      <workItem from="1502744066661" duration="8687000" />
+      <workItem from="1502759659401" duration="216000" />
+      <workItem from="1502800477636" duration="525000" />
+      <workItem from="1502829095325" duration="6810000" />
+      <workItem from="1502840832895" duration="13942000" />
+      <workItem from="1502889197617" duration="18820000" />
+      <workItem from="1502913364863" duration="3985000" />
+      <workItem from="1502928253432" duration="14778000" />
+      <workItem from="1502982924666" duration="23894000" />
+      <workItem from="1503062524622" duration="4838000" />
+      <workItem from="1503070597369" duration="1139000" />
+      <workItem from="1503079273746" duration="13906000" />
+      <workItem from="1503097753412" duration="7414000" />
+      <workItem from="1503148402822" duration="23991000" />
+      <workItem from="1503185556513" duration="71000" />
+      <workItem from="1503185659094" duration="55000" />
+      <workItem from="1503185742911" duration="14023000" />
+      <workItem from="1503238299945" duration="7291000" />
+      <workItem from="1503282680053" duration="269000" />
+      <workItem from="1503329822236" duration="22430000" />
+      <workItem from="1503371544675" duration="5989000" />
+      <workItem from="1503406094248" duration="5201000" />
+      <workItem from="1503418543096" duration="4976000" />
+      <workItem from="1503429992282" duration="640000" />
+      <workItem from="1503447017422" duration="2252000" />
+      <workItem from="1503460807745" duration="3380000" />
+      <workItem from="1503503052054" duration="1472000" />
+      <workItem from="1503509596449" duration="12704000" />
+    </task>
+    <task id="LOCAL-00001" summary="Revert &quot;Initiated contact_v2 chart; currently focusing on connecting the messaging contact to firebase&quot;&#10;&#10;This reverts commit 3cd1693">
+      <created>1500606676507</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1500606676507</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="998301000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
+    <layout>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6492424" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2030303" sideWeight="0.4876161" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33933935" sideWeight="0.50303954" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7262831" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924694" sideWeight="0.4969605" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11363637" sideWeight="0.49380806" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7590909" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968896" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="GitLabIntegration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19772728" sideWeight="0.5123839" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6492424" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34059098" sideWeight="0.50303954" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="GitLabIntegration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7262831" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924694" sideWeight="0.4969605" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19772728" sideWeight="0.5123839" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4537879" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20378788" sideWeight="0.4876161" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11363637" sideWeight="0.49380806" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Revert &quot;Initiated contact_v2 chart; currently focusing on connecting the messaging contact to firebase&quot;&#10;&#10;This reverts commit 3cd1693" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Initiated contact_v2 chart; currently focusing on connecting the messaging contact to firebase&quot;&#10;&#10;This reverts commit 3cd1693" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/pages/skills/skills.tpl.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/contact/sections/fabInfoBtns/pug/fabInfoBtns.SM.ptl.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/contact/sections/fabInfoBtns/scss/_fabInfoBtns.rspv.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/contact/sections/fabInfoBtns/scss/_fabInfoBtns.cls.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/regions/bower-lib/bower-lib_links.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/regions/app/app-links.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/regions/app/app-scripts.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/contact/sections/socialLinks/pug/solcialLinks.ptl.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/contact/sections/socialLinks/pug/solcialLinks.SM.ptl.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scripts/analytics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/smacss/smacss.gbl.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/about/sections/bio/scss/_bio.cls.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/contact/sections/_contact__title.cls.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/contact/sections/_contact__info-reference-btn.cls.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/contact/sections/form/scss/_form.rspv.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/contact/sections/form/scss/_form.cls.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/pages/contact.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1313" lean-forward="false" selection-start-line="0" selection-start-column="1313" selection-end-line="0" selection-end-column="1313" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="107" column="35" lean-forward="true" selection-start-line="107" selection-start-column="35" selection-end-line="107" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/regions/googleAnalytics.rgn.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/contact/contact.tpl.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="632" lean-forward="false" selection-start-line="24" selection-start-column="632" selection-end-line="24" selection-end-column="632" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/regions/bower-lib/bower-lib_scripts.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/skills/scripts/skills_doughnut-chart.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/skills/scripts/skills_radar-chart.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="78" lean-forward="false" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/skills/scripts/skills_horizontal-bar-chart.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="75" column="33" lean-forward="false" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/contact/sections/form/pug/form.XS-600.ptl.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1206">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/contact/sections/form/pug/form.ptl.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/modules.gbl.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/modules.gbl.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/analytics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/fbUrl.fac.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/smacss/base/_base.smcs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="62" lean-forward="false" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/smacss/base/_form.smcs.(BLANK).scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/smacss/base/_variables.smcs.(BLANK).scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/smacss/base/_typography.smcs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/smacss/classes/_classes.smcs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/contact/global/_contact.rspv.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/about/_about.stl.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="44" column="34" lean-forward="true" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/home/_home.stl.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/contact/_contact.stl.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="60" column="3" lean-forward="false" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/skills/sections/_skills-container.rspv.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/projects/locals/_projects.rspv.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/projects/locals/_projects--container.lcl.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/skills/_skills.stl.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/projects/_projects.stl.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/contact/scripts/contact.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-669">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pages/about/scripts/about.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,50 @@
+@import "locals/projects--container.lcl";
+
+/* Default Class Values
+======================*/
+// Box ---
+$height: 100%;
+$width: 100%;
+
+// Color & Background
+$background-color: $projects-page-clr;
+
+// Positioning
+$position: absolute;
+
+// Font & Text ---
+$font-family: 'Orbitron', sans-serif;
+$font-weight: lighter;
+/*====================*/
+
+.projects {
+  height: $height;
+  width: $width;
+  background-color: $background-color;
+  font-family: $font-family;
+  font-weight: $font-weight;
+  overflow-y: auto;
+  &:before {
+    @include pseudo();
+    @include gradience($fade: 0.10, $orientation: right-left);
+  }
+
+  &--detail {
+    font-weight: 600;
+    font-size: 1.3em;
+    padding: 0 !important;
+    margin: -15px !important;
+  }
+
+  &--lyt-header {
+    margin-bottom: 2em;
+  }
+
+  @import "sections/slides/scss/slides.cls";
+  @include plug('projects');
+}
+
+@import "locals/projects.rspv";
+
+
+

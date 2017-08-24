@@ -1,0 +1,26 @@
+@import "../../../global/about__local.gbl";
+@import "../../../../../components/hot-kit/hot-kit";
+
+&__bio {
+
+  @include mq('desktop-md') {
+    padding: 10px;
+  }
+
+  @include mq('tablet-sm') {
+    margin-left: 4%;
+    width: 62.66666667%;
+    height: 450px;
+  }
+
+  @include mq('tablet-small-xs') {
+    width: 100%;
+    margin-top: 50px;
+    //padding: 10px;
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+}

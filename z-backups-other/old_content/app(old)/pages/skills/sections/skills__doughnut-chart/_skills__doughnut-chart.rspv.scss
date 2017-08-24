@@ -1,0 +1,31 @@
+@import "../../global/skills__local.gbl";
+
+.skills__doughnut-chart {
+
+  //@media only screen and (max-height: 600px) {
+  //  height: 220px !important;
+  //
+  //  canvas {
+  //    height: 150px !important;
+  //  }
+  //}
+
+  ////MD
+  //@include mq('desktop-md') {
+  //  height: 245px;
+  //
+  //  canvas {
+  //    height: 180px !important;
+  //  }
+  //}
+
+  ////SM
+  //@include mq('tablet-sm') {
+  //  canvas {
+  //    height: 160px !important;
+  //    width: 230px !important;
+  //  }
+  //}
+
+}
+

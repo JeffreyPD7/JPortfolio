@@ -1,0 +1,23 @@
+
+//SMACSS
+@import "smacss/smacss.gbl";
+
+// Pages
+@import "pages/home/home.stl";
+@import "pages/about/about.stl";
+@import "pages/skills/skills.stl";
+@import "pages/contact/contact.stl";
+@import "pages/projects/projects.stl";
+
+// Centering Columns
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+// Takes off hyper link border from ng-click events
+*:focus {
+  outline: none;
+  border: 0;
+}
+

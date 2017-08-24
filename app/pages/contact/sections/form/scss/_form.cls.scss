@@ -1,0 +1,191 @@
+
+/**
+* Sub-class key reference
+* ------------------------
+* 1st Class '__' comment guide '>'
+* 2nd Class '_' comment guide '>>'
+* 3rd Class '-' comment guide '>>>'
+* 4th Class '--' comment guide '>>>>'
+* 5th Class '---' comment guide '>>>>>5'
+
+* Special keys
+* -------------
+* 1st element '_-_'
+* 2nd element '_--_'
+* 3rd element '_---_'
+
+* NOTE:
+*  - Directives use the same class key
+*  - This key '-_-' is not acceptable by the scss compiler
+**/
+
+/* Default Block Class Values
+======================*/
+// Box
+$padding-top: 0;
+$margin-top: 0;
+
+// Font & Text
+//$font-family: Orbitron;
+//$font-weight: lighter;
+/*====================*/
+
+&_-_form {
+  padding-top: $padding-top;
+  margin-top: $margin-top;
+
+  &__h3 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #212121;
+    text-align: center;
+  }
+
+}
+
+&_-_form--inputBoxes {
+  //background-color: yellow;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+&_-_form--inputBoxes_--_questions {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+  md-input-container { //>>>>>5 .contact_-_form--inputBoxes_--_questions--md-input-container
+    width: inherit;
+    margin: 0;
+
+    // Changing font color on warning
+    .md-input-message-animation {
+      color: #FFEB3B;
+    }
+
+    label { // >>>>>>6 .contact_-_form--inputBoxes_--_questions--md-input-container label
+      color: white;
+      left: 10px !important;
+      bottom: 65px !important;
+      font-size: 28px;
+      position: absolute;
+      transition: all 0.2s ease-in-out !important;
+      opacity: 0.7;
+
+      //Overriding transform-origin ng-Material
+      transform-origin: -40px -40px !important;
+    }
+
+    //Overriding autofill background
+    input:-webkit-autofill {
+      -webkit-box-shadow:
+              inset 0 1px 2px rgba(black, 0.5),
+              inset 0 0 0 50px rgba(#d32f2f, 1),
+              0 1px 2px rgba(white, 0.5) !important;
+    }
+
+    .md-input { //>>>>>6 .contact_-_form--inputBoxes_--_questions--md-input-container---md-input
+      width: 100%;
+      height: 45px;
+      background-color: #d32f2f;
+      margin: 8px 0;
+      box-sizing: border-box;
+      padding: 10px;
+      font-family: 'Orbitron', sans-serif;
+      color: white;
+      border-radius: 4px;
+      border: none;
+      box-shadow: inset 0 1px 2px rgba(black, 0.5),
+      0 1px 2px rgba(white, 0.5) !important;
+    }
+  }
+}
+
+&_-_form--inputBoxes_--_questions--warning {
+  position: absolute;
+  bottom: 0px;
+  height: 35px;
+
+  > div {
+    color: #FFEB3B;
+  }
+}
+
+&_-_form--inputBoxes_--_submitBtn {
+  .md-button {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    height: 45px !important;
+    font-size: 22px;
+  }
+}
+
+&_-_form--textarea {
+  md-input-container {
+    width: 100% !important;
+    margin: 0;
+
+    // Changing font color on warning
+    .md-input-message-animation {
+      color: #FFEB3B;
+    }
+
+    label {
+      //background-color: black;
+      height: 40px;
+      width: inherit;
+      color: #fff;
+      position: absolute;
+      bottom: auto;
+      left: -10px;
+      top: -10px;
+      //right: 500px;
+      font-size: 28px;
+      transition: all 0.2s ease-in-out;
+      opacity: 0.7;
+      text-align: right;
+      text-decoration: none !important;
+
+      //Overriding transform-origin ng-Material
+      transform-origin: 380px -50px !important;
+    }
+
+    textarea.md-input {
+      width: 100% !important;
+      height: 335px !important;
+      background-color: #d32f2f;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border-radius: 4px;
+      box-shadow: inset 0 1px 2px rgba(black, 0.5),
+      0 1px 2px rgba(white, 0.5);
+      border: none;
+      padding: 10px;
+      color: white;
+      font-family: 'Orbitron', sans-serif;
+    }
+  }
+}
+
+&_-_form--textArea_--_warning { //>>>>>5 .contact_-_form--textarea_--_warning
+  position: absolute;
+  bottom: 0px;
+  height: 35px;
+
+  > div {
+    color: #FFEB3B;
+  }
+}
+
+// Responsive
+@import "form.rspv";
+
+
+
+
+
+
+
+
+
+
+

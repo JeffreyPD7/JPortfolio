@@ -1,0 +1,54 @@
+
+/* Default Class Values
+======================*/
+// Box
+$height: 100%;
+$width: 100%;
+
+// Color & Background
+$background-color: $about-page-clr;
+
+// Positioning
+//$position: absolute;
+
+// Font & Text
+$font-family: 'Orbitron', sans-serif;
+$font-weight: lighter;
+/*====================*/
+
+.about {
+  background-color: $background-color;
+  height: $height;
+  width: $width;
+  font-family: $font-family;
+  font-weight: $font-weight;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  &:before {
+    @include pseudo();
+    height: inherit;
+    width: inherit;
+    background: linear-gradient(rgba(black, .15), rgba(white, .15));
+  }
+
+  /* general value --------------------*/
+
+  // Centering Columns
+  .col-centered {
+    float: none;
+    margin: 0 auto;
+  }
+
+  // Sections
+  @import "sections/selfPortrait/scss/selfPortrait.cls";
+  @import "sections/bio/scss/bio.cls";
+}
+
+@import "locals/about.rspv";
+
+
+
+
+
+

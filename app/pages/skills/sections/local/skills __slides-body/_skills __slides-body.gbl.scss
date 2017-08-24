@@ -1,0 +1,156 @@
+@import "../../../../../smacss/smacss.gbl";
+
+$shadow-blk-fade: rgba(black, 0.25);
+$shadow-blur: 1px;
+$shadow-end-distance: 4px;
+
+.skills__slides-body {
+  height: inherit;
+  width: 100%;
+  position: absolute;
+  //background: #000;
+  margin-left: -15px;
+  z-index: -1;
+
+  *:before, *:after {
+    @include pseudo();
+    color: white;
+    text-align: center;
+  }
+
+  .top-bottom {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+    &:before {
+      content:"5";
+      background-color: #fcfcfc;
+      //background-color: blue;
+      height: 39%;
+      width: 92%;
+      left: 0;
+      top: 0;
+      box-shadow: -1px -1px $shadow-blur $shadow-blk-fade;
+    }
+
+    &:after {
+      content:"6";
+      background-color: #fcfcfc;
+      //background-color: red;
+      //opacity: .3;
+      height: 39%;
+      width: 92%;
+      right: 0;
+      bottom: 0;
+      box-shadow: $shadow-end-distance 1px $shadow-blur $shadow-blk-fade;
+      //z-index: 3;
+    }
+  }
+
+  .center {
+    content: '8';
+    height: 22%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto 0;
+    //background-color: brown;
+    background-color: #fcfcfc;
+  }
+
+  .left-skirt {
+    height: inherit;
+    width: 8%;
+    position: absolute;
+    left: 0;
+
+    &:before {
+      content: '1';
+      line-height: 10em;
+      height: 50%;
+      width: 100%;
+      //background-color: black;
+      background-color: #fcfcfc;
+      left: 0;
+      bottom: 5.5%;
+      transform: skewY(45deg);
+      box-shadow: -1px 1px $shadow-blur $shadow-blk-fade;
+    }
+
+    //&:after {
+    //  content: '2';
+    //  height: 10.5%;
+    //  width: 100%;
+    //  //background-color: red;
+    //  background-color: #fcfcfc;
+    //  left: 0;
+    //  top: 0;
+    //}
+  }
+
+  .right-skirt {
+    height: inherit;
+    width: 8%;
+    position: absolute;
+    right: 0;
+
+    &:before {
+      content: '3';
+      line-height: 10em;
+      height: 50%;
+      width: 100%;
+      //background-color: black;
+      background-color: #fcfcfc;
+      right: 0;
+      top: 5.5%;
+      transform: skewY(45deg);
+      box-shadow: $shadow-end-distance -3px $shadow-blur $shadow-blk-fade;
+    }
+
+    //&:after {
+    //  content: '4';
+    //  height: 10.5%;
+    //  width: 100%;
+    //  //background-color: red;
+    //  background-color: #fcfcfc;
+    //  right: 0
+    //  bottom: 0;
+    //}
+  }
+}
+
+// Responsive
+@import "skills __slides-body.rspv";
+
+
+
+
+//.main-body {
+//  height: 100%;
+//  width: 100%;
+//  //background-color: #fcfcfc;
+//  position: absolute;
+//
+//
+//  &:before {
+//    content:"5";
+//    background-color: #fcfcfc;
+//    height: 100%;
+//    width: 84%;
+//    margin: 0 8%;
+//  }
+//
+//  &:after {
+//    content:"6";
+//    background-color: #fcfcfc;
+//    //opacity: .3;
+//    height: 30%;
+//    width: 8%;
+//    right: 0;
+//    bottom: 0;
+//    //z-index: 3;
+//  }
+//}

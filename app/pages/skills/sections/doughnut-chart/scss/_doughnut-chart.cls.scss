@@ -1,0 +1,10 @@
+
+&_-_doughnut-chart {
+  //XS-601px
+  @include mq('phablet') {
+    //margin-top: 5%;
+    margin-bottom: 2%;
+  }
+}
+
+

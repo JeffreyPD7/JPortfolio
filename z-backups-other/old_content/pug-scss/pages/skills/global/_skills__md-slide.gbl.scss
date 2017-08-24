@@ -1,0 +1,81 @@
+@import "../../../components/hot-kit/hot-kit";
+
+/* Default Values
+--------------------*/
+// Box
+$height: 265px;
+/*width::bootstrap*/
+
+// Color & Background
+$background-color: transparent;
+
+// Font & Text
+$color: #666666;
+$text-align: center;
+
+// Canvas
+$canvas-height: 200px !important;
+$canvas-width: 300px !important;
+$canvas-margin: 0 auto;
+
+/*------------------*/
+
+.skills__md-slide {
+  background-color: $background-color;
+  height: $height;
+  opacity: 0;
+  color: $color;
+  text-align: $text-align;
+  //@extend .skills__box-shadow;
+  @extend .skills__animation-duration;
+
+  canvas {
+    height: $canvas-height;
+    width: $canvas-width;
+    margin: $canvas-margin;
+  }
+
+  //Horizontal View - Height@600px
+  //@media only screen and (max-height: 600px) {
+  //  height: 220px;
+  //
+  //  canvas {
+  //    height: 150px !important;
+  //  }
+  //}
+
+  //MD
+  @include mq('desktop-md') {
+    height: 245px;
+
+    canvas {
+      height: 180px !important;
+    }
+  }
+
+  @media only screen and (min-width:970px) and (max-width: 1070px) {
+    canvas {
+      height: 160px !important;
+      width: 230px !important;
+    }
+  }
+
+  //SM
+  @include mq('tablet-sm') {
+    canvas {
+      height: 160px !important;
+      width: 230px !important;
+    }
+  }
+
+  //XS
+  @include mq('tablet-small-xs') {
+    width: 48.5%;
+  }
+
+  //XS-601px
+  @include mq('phablet') {
+    width: 100%;
+    //margin-left: 22.5%;
+  }
+}

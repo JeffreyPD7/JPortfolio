@@ -1,0 +1,22 @@
+
+&_-_radar-chart {
+  margin-top: 10px;
+
+  //XS
+  @include mq('tablet-small-xs') {
+    margin-top: 0;
+    //padding-left: 0;
+    //margin-left: 15px;
+  }
+
+  //XS-601px
+  @include mq('phablet') {
+    //width: 55%;
+    margin-left:0;
+  }
+}
+
+// Responsive
+//@import "skills__radar-chart.rspv";
+
+

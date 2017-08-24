@@ -1,0 +1,38 @@
+div.projects(ng-controller='projectsController')
+    div.container.page_content
+        div.row
+            div.col-xs-12.projects--lyt-header
+                div.col-xs-4.col-sm-3.pull-right.projects__title.title
+                    img(src='assets/images/projects-title-tag.png' alt='')
+                    h1 Projects
+
+                div.col-xs-8.col-sm-9.projects--detail
+                    h3
+                    | Most of my work has been in C, C++, C#, and Java; which are all small apps
+                    | that work on the console. You could see this web app as an example of my
+                    | work, and the sources in this git repo
+
+        // LG - SM
+        div.row
+            div.col-sm-12.hidden-xs
+                include sections/slides/pug/slides.ptl.pug
+                +plug('projects_-_')
+
+        // XS
+        div.row
+            div.col-xs-12.hidden-sm.hidden-md.hidden-lg.projects--lyt-XS
+                include sections/slides/pug/slides.XS.ptl.pug
+                +plug('projects_-_')
+
+        // XS-480
+        div.row
+            div.col-xs-12.projects--lyt-XS-480
+                include sections/slides/pug/slides.XS-480.ptl.pug
+                +plug('projects_-_')
+
+    div.return-btn(ng-click="projectsPageLeave('/home')" ng-mouseover='returnText=true'
+    ng-mouseleave='returnText=false')
+        h4(ng-show='returnText') return
+
+
+

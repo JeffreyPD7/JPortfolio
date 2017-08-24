@@ -1,0 +1,44 @@
+@import "sections/local/skills __slides-body/skills __slides-body.gbl";
+@import "sections/local/skills__md-slide.lcl";
+
+//Container Resize Responsive
+@import "sections/skills-container.rspv";
+
+/* Default Values
+======================*/
+// Box
+$height: 100%;
+
+// Color & Background
+$background-color: $skills-page-clr;
+
+// Font & Text
+$font-family: Orbitron;
+$font-weight: lighter;
+/*====================*/
+
+.skills {
+  height: $height;
+  background-color: $background-color;
+  font-family: $font-family;
+  font-weight: $font-weight;
+  overflow-y: auto;
+
+  &:before {
+    @include pseudo();
+    @include gradience($fade: 0.10, $orientation: left-right);
+  }
+
+  &--detail {
+    padding:0;
+  }
+
+  // Sections
+  @import "sections/horizontal-bar-chart/scss/horizontal-bar-chart.cls";
+  @import "sections/doughnut-chart/scss/doughnut-chart.cls";
+  @import "sections/radar-chart/scss/radar-chart.cls";
+}
+
+@import "sections/skills.rspv.scss";
+
+

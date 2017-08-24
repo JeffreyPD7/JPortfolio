@@ -1,0 +1,26 @@
+
+&_-_fabInfoBtns {
+  text-align: center;
+
+  &--btn {
+    margin: 0 auto 20px auto;
+    padding: 0;
+
+    &__h4 {
+      width: 100%;
+    }
+  }
+
+  .md-fab {
+    line-height: 1.5em;
+    height: 100px;
+    width: 65%;
+  }
+
+  &__i {
+    //margin-top: 100px !important;
+    //background-color: black;
+  }
+}
+
+@import "fabInfoBtns.rspv";

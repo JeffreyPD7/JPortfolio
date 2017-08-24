@@ -1,0 +1,50 @@
+// Global Variables
+@import "../../main/global-variables.gbl";
+
+// Centering Columns
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+/* Default Class Values
+======================*/
+// Box ---
+$height: 100%;
+$width: 100%;
+
+// Color & Background
+$background-color: $contact-page-clr;
+
+// Positioning
+$position: absolute;
+
+// Font & Text ---
+$font-family: 'Orbitron', sans-serif;
+$font-weight: lighter;
+/*====================*/
+
+.contact {
+  //position: $position;
+  height: $height;
+  width: $width;
+  background-color: $background-color;
+  font-family: $font-family;
+  font-weight: $font-weight;
+  &:before {
+    @include pseudo();
+    @include gradience($fade:0.10,$orientation: bottom-top);
+  }
+
+
+
+  &__uniform {
+    margin-top: 5px;
+  }
+
+  //@import "sections/contact__title.cls";
+  @import "sections/contact__socialLinks/scss/contact__socialLinks.cls";
+  @import "sections/contact__form/scss/contact__form.cls";
+  @import "sections/contact__fabInfoBtns/scss/contact__fabInfoBtns.cls";
+}
+

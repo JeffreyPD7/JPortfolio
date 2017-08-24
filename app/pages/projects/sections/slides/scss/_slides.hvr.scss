@@ -1,0 +1,29 @@
+//@import "../../../main/global-variables.gbl";
+//@import "../../../components/hot-kit/hot-kit";
+
+@mixin sub-plug($baseCSS) {
+
+  &_-_slides--card {
+
+    // Octagon shape and text detail animation
+    &:hover {
+      &:before {
+        height: 490px;
+        transition: all 1s ease;
+        clip-path: polygon(17% 0%, 83% 0%, 100% 16%, 100% 84%, 83% 100%, 17% 100%, 0% 84%, 0% 15%);
+      }
+
+      .#{$baseCSS}_-_slides--card_--_details {
+        transition: all 1s ease;
+
+        &__h3 {
+          top: 320px !important;
+        }
+
+        &__i {
+          bottom: 5px !important;
+        }
+      }
+    }
+  }
+}

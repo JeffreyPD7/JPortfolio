@@ -1,0 +1,11 @@
+mixin plug(baseCSS)
+    div.col-xs-12.skills__md-slide(class=baseCSS + 'radar-chart' ng-controller='radarChartCtrl')
+        include ../../local/skills __slides-body/skills__slides-body.gbl.pug
+
+        h3(class=baseCSS + 'radar-chart__h3') Languages
+
+        canvas.chart.chart-radar(id='radar'
+        chart-data='data3' chart-options='options3' chart-labels='labels3'
+        chart-colors='colors3' height='175px')
+
+

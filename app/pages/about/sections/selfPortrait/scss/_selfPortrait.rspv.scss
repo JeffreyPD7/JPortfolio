@@ -1,0 +1,17 @@
+
+&_-_selfPortrait {
+  //MD
+  @include mq('desktop-md') {
+    img {
+      height: 330px;
+    }
+  }
+
+  //SM
+  @include mq('tablet-sm') {
+    img {
+      height: 300px;
+    }
+  }
+}
+

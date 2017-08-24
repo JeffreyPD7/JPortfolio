@@ -1,0 +1,30 @@
+{
+  "name": "jp7_portfolio",
+  "version": "1.0.0",
+  "description": "personal portfolio gulp task",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.5.6",
+    "gulp-concat": "^2.2.0",
+    "gulp-minify-css": "^0.3.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^2.0.4",
+    "time-require": "^0.1.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.6.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-util": "^2.2.14",
+    "gulp-watch": "^4.3.11",
+    "sassdoc": "^2.3.0",
+    "shelljs": "^0.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

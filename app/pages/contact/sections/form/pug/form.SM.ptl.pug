@@ -1,0 +1,61 @@
+mixin plug(baseCSS)
+
+    div.col-xs-12(class=baseCSS + 'form')
+        h3(class=baseCSS + 'form__h3') Thanks for viewing my porfolio, I am currently available for hire. Please fill in your information and I will contact you as soon as possible. I look forward to working with you in the future
+        form(name='contactMessageForm' ng-submit='authenticate()')
+
+            div.row
+                div.col-xs-6(class=baseCSS + 'form--inputBoxes')
+                    div.row
+                        div.col-xs-12(class=baseCSS + 'form--inputBoxes_--_questions')
+                            md-input-container
+                                label Name
+                                input(required name='clientName'
+                                    ng-model='contactMessage.name' tabindex=1)
+
+                                div(class=baseCSS + 'form--inputBoxes_--_questions--warning' ng-messages='contactMessageForm.clientName.$error')
+                                    div(ng-message='required') This is required
+
+                    div.row
+                        div.col-xs-12(class=baseCSS + 'form--inputBoxes_--_questions')
+                            md-input-container
+                                label Email
+                                input(required type='email' name='clientEmail'
+                                    ng-model='contactMessage.email' minlength='10' maxlength='100'
+                                    ng-pattern='/^.+@.+\..+$/' tabindex=2)
+
+                                div(class=baseCSS + 'form--inputBoxes_--_questions--warning' ng-messages='contactMessageForm.clientEmail.$error' role='alert')
+                                    div(ng-message='required') This is required
+                                    div(ng-message-exp="['required', 'minlength', 'maxlength', 'pattern']") Your email must be between 10 and 100 characters long and look like an e-mail address
+
+                    div.row
+                        div.col-xs-12(class=baseCSS + 'form--inputBoxes_--_questions')
+                            md-input-container
+                                label Website / Company
+                                input(name='clientCompany'
+                                    ng-model='contactMessage.company'
+                                    md-maxlength='150'
+                                    tabindex=3)
+
+                                div(class=baseCSS + 'form--inputBoxes_--_questions--warning' ng-messages='contactMessageForm.clientCompany.$error')
+                                    div(ng-message='md-maxlength') he name or website of the Company must be less than 150 characters long
+
+                    div.row
+                        div.col-xs-6.pull-right(class=baseCSS + 'form--inputBoxes_--_submitBtn')
+                            md-button.md-raised.md-primary(type="submit"
+                                ng-click="saveContactData(contactMessage)"
+                                ng-disabled="contactMessageForm.$invalid"
+                                tabindex=5) Send
+
+                div.col-xs-6(class=baseCSS + 'form--textarea')
+                    md-input-container
+                        label Message
+                        textarea(required name='clientMessage'
+                            md-maxlength='420'
+                            md-select-on-focus
+                            ng-model='contactMessage.message'
+                            tabindex=4)
+
+                        div(class=baseCSS + 'form--textarea_--_warning' ng-messages='contactMessageForm.clientMessage.$error')
+                            div(ng-message='required') This is required
+                            div(ng-message='md-maxlength') The message must be less than 420 characters long

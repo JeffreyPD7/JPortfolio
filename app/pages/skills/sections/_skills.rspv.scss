@@ -1,0 +1,69 @@
+
+.skills {
+  &--detail {
+    padding: 0;
+
+    //MD
+    @include mq('desktop-md') {
+      h3 {
+        text-align: right;
+      }
+    }
+
+    //XS
+    @include mq('tablet-small-xs') {
+      h3 {
+        font-size: 18px;
+      }
+    }
+
+    //XS-601px
+    @include mq('phablet') {
+      margin-top: -6px;
+
+      h3 {
+        font-size: 17px;
+      }
+    }
+
+    //XS-480px
+    @include mq('phone-wide') {
+      h3 {
+        font-size: 14px;
+      }
+    }
+  }
+
+  //XS
+  @include mq('tablet-small-xs') {
+    &--lyt-horizontal-bar-chart {
+      margin-top: 5%;
+    }
+  }
+
+  //XS-768 to XS-601
+  @media only screen and (max-width: 768px) and (min-width: 601px) {
+    &_-_doughnut-chart,
+    &_-_radar-chart {
+      margin-bottom: 10%
+    }
+  }
+
+  //XS-601px
+  @include mq('phablet') {
+    &_-_radar-chart {
+      margin-bottom: 10%;
+    }
+  }
+
+  //XS-480px
+  @include mq('phone-wide') {
+    &_-_horizontal-bar-chart,
+    &_-_doughnut-chart,
+    &_-_radar-chart {
+      h3 {
+        font-size: 18px !important;
+      }
+    }
+  }
+}

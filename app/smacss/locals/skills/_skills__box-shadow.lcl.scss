@@ -1,0 +1,6 @@
+@import "../../../smacss/mixins/mixins.smcs";
+
+// Extend Value
+.skills__box-shadow {
+  @include body-shadow($orientation:right,$opacity:0.1);
+}

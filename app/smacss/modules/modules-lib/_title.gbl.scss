@@ -1,0 +1,265 @@
+// Hot-kit
+//@import "../components/hot-kit/hot-kit";
+@import "../../mixins/mixins.smcs";
+
+/* Default Values
+======================*/
+//- Box -
+$height: 70px;
+
+//- Font & Text -
+$text-align: center;
+$color: #000;
+
+//- Sub Classes & Elements -
+/*- img -*/
+$img-height: 93px;
+$img-width: 236px;
+/*====================*/
+
+.title {
+  color: $color;
+  text-align: $text-align;
+  height: $height;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.about .about__title {
+  h1 {
+    top: 10%;
+  }
+
+  @include mq('tablet-sm') {
+    //margin-top: -50px;
+  }
+
+  @include mq('tablet-small-xs') {
+    //margin-top: 460px;
+    //margin-bottom: 30px;
+  }
+}
+
+.skills .skills__title {
+  img {
+    right: auto;
+    left: -10px;
+    top: -15px;
+  }
+
+  h1 {
+    right: auto;
+    left: 50px;
+    top: -8px;
+  }
+
+  // XS
+  @include mq('tablet-small-xs') {
+    img, h1 {
+      top: 0;
+    }
+  }
+
+  //  XS-601px
+  @include mq("phablet") {
+    h1 {
+      font-size: 26px;
+      left: 30px;
+      top: 5px;
+    }
+
+    img {
+      height: 80px;
+      width: aspect-ratio($img-width, $img-height, 70px);
+    }
+  }
+
+  //  XS-480px
+  @include mq("phone-wide") {
+    h1 {
+      font-size: 26px;
+      left: 30px;
+      top: 5px;
+    }
+
+    img {
+      height: 80px;
+      width: aspect-ratio($img-width, $img-height, 65px);
+    }
+  }
+
+  // XS-362px
+  @include mq('phone') {
+    h1 {
+      font-size: 24px;
+      left: 15px;
+      //top: 5px;
+    }
+
+    img {
+      height: 80px;
+      width: aspect-ratio($img-width, $img-height, 48px);
+    }
+  }
+}
+
+.contact .contact__title {
+  //margin-top: auto;
+
+  img {
+    left: -7px;
+  }
+
+  h1 {
+    top: -5px;
+  }
+
+  @include mq('desktop-md') {
+    img {
+      width: 260px;
+      height: 80px;
+    }
+  }
+
+  @include mq('tablet-sm') {
+    img {
+      left: 0px;
+    }
+
+    h1 {
+      left: 5px;
+    }
+  }
+
+  //@include mq('tablet-small-xs') {
+  //  img {
+  //    left: -5%;
+  //  }
+  //
+  //  h1 {
+  //    left: 5px;
+  //  }
+  //}
+}
+
+.projects .projects__title {
+  img {
+    left: auto;
+    right: -13px;
+    //top: -15px;
+    //top: 3rem;
+  }
+
+  h1 {
+    //top: 1rem;
+    top: -0.5rem;
+  }
+
+  //MD
+  @include mq('desktop-md') {
+    h1 {
+      //left: -1em;
+      right: auto;
+    }
+  }
+
+  //MD-1070
+  @media only screen and (max-width: 1070px) {
+    img{
+      $height: 105px;
+      width: aspect-ratio($img-width, $img-height, $height);
+    }
+  }
+
+  //SM
+  @include mq('tablet-sm') {
+    img {
+      $height: 93px;
+      width: aspect-ratio($img-width, $img-height, $height);
+    }
+
+    h1 {
+      top: 0;
+      left: 1em;
+      font-size: 2em;
+    }
+  }
+
+  //SM-950
+  @media only screen and (max-width: 950px) {
+    h1 {
+      left: 0.3em;
+    }
+  }
+
+  //SM-850
+  @media only screen and (max-width: 850px) {
+    h1 {
+      left: -0.5em;
+    }
+  }
+
+  //XS
+  @include mq('tablet-small-xs') {
+    h1 {
+      font-size: 1.8em;
+      left: 0;
+      right: 0;
+    }
+
+    img {
+      $height: 85px;
+      width: aspect-ratio($img-width, $img-height, $height);
+    }
+  }
+
+  //XS-640
+  @media only screen and (max-width: 640px) {
+    h1 {
+      font-size: 1.7em;
+      //left: -1em;
+      top: 0.3rem;
+    }
+
+    img {
+      $height: 70px;
+      width: aspect-ratio($img-width, $img-height, $height);
+    }
+  }
+
+  //XS-570
+  @media only screen and (max-width: 570px) {
+    h1 {
+      left: -1em;
+    }
+
+    //img {
+    //  $height: 85px;
+    //  width: aspect-ratio($img-width, $img-height, $height);
+    //}
+  }
+
+  //XS-480
+  @include mq('phablet') {
+    h1 {
+      left: -2em;
+    }
+  }
+}

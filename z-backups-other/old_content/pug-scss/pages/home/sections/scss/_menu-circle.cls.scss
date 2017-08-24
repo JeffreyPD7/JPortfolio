@@ -1,0 +1,161 @@
+// Global Variables
+@import "../../../../main/global-variables.gbl";
+
+&__content_menuCircle {
+  $dimension: 450px;
+  $height:  $dimension;
+  $width:  $dimension;
+
+  $border-thickness: 25px;
+  $circled-button-radius: 100%;
+  $circled-button-deduction: 250px;
+  $circled-button-distance: -25px;
+
+  $about-btn-clr: $about-page-clr;
+  $skills-btn-clr: $skills-page-clr;
+  $contact-btn-clr: $contact-page-clr;
+  $projects-btn-clr: $projects-page-clr;
+
+  @mixin body {
+    //background-color: black;
+    //margin-top: 12.5%;
+    margin-left: auto;
+    margin-right: auto;
+    height: $height;
+    width: $width;
+    position: relative;
+  }
+
+  @include body;
+
+  h1 {
+    position: relative;
+    top: 45%;
+    color: #000;
+    font-family: Orbitron;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    //transition: all 2s ease-in-out;
+    //
+    //&:hover {
+    //  transition: all 3s ease-in-out;
+    //}
+  }
+
+  .circled-btn {
+    position: absolute;
+    height: $height - $circled-button-deduction;
+    width: $width - $circled-button-deduction;
+    background-color: transparent;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      border-radius: 15px;
+      transition: all .3s ease-in-out;
+      cursor: pointer;
+    }
+
+    &:focus {
+      border-radius: 15px;
+    }
+  }
+
+  &-aboutBtn {
+    border-top: $border-thickness solid $about-btn-clr;
+    border-left: $border-thickness solid $about-btn-clr;
+    border-top-left-radius: $circled-button-radius;
+    top: $circled-button-distance;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transform: rotate(45deg);
+    box-shadow: -3px -3px 3px rgba(black, .4),
+    inset 3px 3px 5px rgba(white, .2);
+
+    &:hover {
+      top: $circled-button-distance - 20px;
+    }
+
+    &:focus {
+      top: $circled-button-distance - 20px;
+      border-top: $border-thickness solid $about-btn-clr;
+      border-left: $border-thickness solid $about-btn-clr;
+    }
+  }
+
+  &-skillsBtn {
+    border-top: $border-thickness solid $skills-btn-clr;
+    border-right: $border-thickness solid $skills-btn-clr;
+    border-top-right-radius: $circled-button-radius;
+    top: 0;
+    right: $circled-button-distance;
+    bottom: 0;
+    margin: auto 0;
+    transform: rotate(45deg);
+    box-shadow: 3px -3px 3px rgba(black, .4),
+    inset -3px 3px 5px rgba(white, .2);
+
+    &:hover {
+      right: $circled-button-distance - 20px;
+    }
+
+    &:focus {
+      right: $circled-button-distance - 20px;
+      border-top: $border-thickness solid $skills-btn-clr;
+      border-right: $border-thickness solid $skills-btn-clr;
+    }
+  }
+
+  &-contactBtn {
+    border-bottom: $border-thickness solid $contact-btn-clr;
+    border-left: $border-thickness solid $contact-btn-clr;
+    border-bottom-left-radius: $circled-button-radius;
+    right: 0;
+    bottom: $circled-button-distance;
+    left: 0;
+    margin: 0 auto;
+    transform: rotate(-45deg);
+    box-shadow: -3px 3px 3px rgba(black, .4),
+    inset 3px -3px 5px rgba(white, .2);
+
+    &:hover {
+      bottom: $circled-button-distance - 20px;
+    }
+
+    &:focus {
+      bottom: $circled-button-distance - 20px;
+      border-bottom: $border-thickness solid $contact-btn-clr;
+      border-left: $border-thickness solid $contact-btn-clr
+    }
+  }
+
+  &-projectsBtn {
+    border-left: $border-thickness solid $projects-btn-clr;
+    border-bottom: $border-thickness solid $projects-btn-clr;
+    border-bottom-left-radius: $circled-button-radius;
+    top: 0;
+    left: $circled-button-distance;
+    bottom: 0;
+    margin: auto 0;
+    transform: rotate(45deg);
+    box-shadow: -3px 3px 3px rgba(black, .4),
+    inset 3px -3px 5px rgba(white, .2);
+
+    &:hover {
+      left: $circled-button-distance - 20px;
+    }
+
+    &:focus {
+      left: $circled-button-distance - 20px;
+      border-left: $border-thickness solid $projects-btn-clr;
+      border-bottom: $border-thickness solid $projects-btn-clr;
+    }
+  }
+}
+
+// Responsive
+@import "menu-circle.rspv";
+
+

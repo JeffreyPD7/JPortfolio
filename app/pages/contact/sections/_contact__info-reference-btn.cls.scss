@@ -1,0 +1,51 @@
+
+.contact__input-reference-btn {
+  height: 280px;
+  //width: 280px;
+  //background-color: orange;
+  text-align: center;
+  margin-top: 8%;
+
+
+  .ref-link-btns {
+    width: 45%;
+    height: 95px;
+    //width: 130px;
+    background-color: #e5e5e5;
+    text-align: center;
+    box-shadow: 0 3px 3px rgba(black, 0.3);
+    cursor: pointer;
+    margin-top: 10px;
+
+    a {
+      color: inherit;
+      //text-align: center;
+    }
+
+
+
+    &:before {
+      @include pseudo();
+      @include gradience($orientation: bottom-top);
+      height: inherit;
+      width: 100%;
+      margin-left: -15px;
+    }
+
+    i {
+      line-height: 1.8em;
+    }
+
+    &:hover {
+      //height: 140px;
+      //width: 140px;
+      box-shadow: 0 3px 13px rgba(black, 0.2);
+
+    }
+  }
+
+  .ref-link-btns:nth-child(1) {
+    margin-right: 5%;
+  }
+}
+

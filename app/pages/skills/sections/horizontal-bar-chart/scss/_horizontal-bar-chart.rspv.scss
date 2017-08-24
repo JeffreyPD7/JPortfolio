@@ -1,0 +1,54 @@
+
+&_-_horizontal-bar-chart {
+
+  //LG-1300 to LG-1200
+  @media only screen and (max-width: 1300px) and (min-width: 1200px) {
+    canvas {
+      margin-top: 2rem;
+    }
+  }
+
+  //MD-1070 to SM-992
+  @media only screen and (max-width: 1070px) and (min-width: 992px) {
+    canvas {
+      margin-top: 3rem;
+    }
+  }
+
+  //SM-950 to SM-860
+  @media only screen and (max-width: 950px) and (min-width: 860px) {
+    canvas {
+      margin-top: 4rem;
+    }
+  }
+
+  //SM-860 to XS-768
+  @media only screen and (max-width: 860px) and (min-width: 768px) {
+    canvas {
+      margin-top: 5.5rem;
+    }
+  }
+
+  //XS-768 to XS-601
+  @media only screen and (max-width: 768px) {
+    height: 100%;
+    canvas {
+     margin-bottom: 5%;
+    }
+  }
+
+  //MD
+  //@include mq('desktop-md') {
+  //  canvas {
+  //
+  //  }
+  //}
+
+  //XS
+  @include mq('tablet-small-xs') {
+    width: 100%;
+    margin-bottom: 2%;
+    margin-right: 0;
+  }
+}
+

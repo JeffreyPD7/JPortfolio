@@ -1,0 +1,36 @@
+@import "../../global/skills__local.gbl";
+
+.skills__radar-chart {
+  //@media only screen and (max-height: 600px) {
+  //  height: 220px !important;
+  //
+  //  canvas {
+  //    height: 150px !important;
+  //    }
+  //}
+
+  ////MD
+  //@include mq('desktop-md') {
+  //  //height: 245px;
+  //
+  //  //canvas {
+  //  //  height: 180px !important;
+  //  //}
+  //}
+
+  //SM
+  //@include mq('tablet-sm') {
+  //  canvas {
+  //    height: 160px !important;
+  //    width: 230px !important;
+  //  }
+  //}
+  //
+  ////XS
+  //@include mq('tablet-small-xs') {
+  //  //width: 48.5%;
+  //  margin-top: 0;
+  //  margin-left: 1.5%;
+  //  //margin-right: 1%;
+  //}
+}

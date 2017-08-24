@@ -1,0 +1,28 @@
+@import "../../global/skills__local.gbl";
+
+&__horizontal-bar-chart { //>> .skills__horizontal-bar-chart
+  background-color: transparent;
+  height: 540px;
+  margin-right: 1%;
+  width: 65.66666667%;
+  @extend .skills__animation-duration;
+  opacity: 0;
+
+
+  h3 {
+    color: #666666;
+    text-align: center
+  }
+
+  canvas {
+    height: 460px !important;
+
+    @include mq('desktop-md') {
+      height: 420px !important;
+    }
+  }
+
+}
+
+// Responsive
+@import "skills__horizontal-bar-chart.rspv";

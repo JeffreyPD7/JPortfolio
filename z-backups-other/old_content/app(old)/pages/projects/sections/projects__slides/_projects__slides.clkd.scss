@@ -1,0 +1,28 @@
+.projects__slides {
+  .projects__slides_card {
+    .projects__slides_card-image {
+      .projects__slides_card-image--modal {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        //background-color: rgba(black, 0.8);
+        box-shadow: none;
+        z-index: 10;
+
+        img {
+           position: fixed;
+           top: 0;
+           bottom: 0;
+           right: 0;
+           left: 0;
+           margin: auto;
+           clip-path: none;
+           transition: transform 0.5s ease;
+           transform: scale(1.5);
+           box-shadow: none;
+           z-index: 10;
+         }
+      }
+    }
+  }
+}

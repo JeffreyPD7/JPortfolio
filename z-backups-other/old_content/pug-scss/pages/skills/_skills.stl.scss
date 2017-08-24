@@ -1,0 +1,115 @@
+// Global Variables
+@import "../../main/global-variables.gbl";
+@import "global/skills__local.gbl";
+
+//Container Resize Responsive
+@import "sections/skills-container.rspv";
+
+/* Default Values
+======================*/
+// Box
+$height: 100%;
+
+// Color & Background
+$background-color: $skills-page-clr;
+
+// Font & Text
+$font-family: Orbitron;
+$font-weight: lighter;
+/*====================*/
+
+.skills {
+  height: $height;
+  background-color: $background-color;
+  font-family: $font-family;
+  font-weight: $font-weight;
+
+  &:before {
+    @include pseudo();
+    @include gradience($fade: 0.10, $orientation: left-right);
+  }
+
+  &-page-lg {
+    margin-top: 60px;
+
+    @include mq('desktop-md') {
+      margin-top: 20px;
+    }
+  }
+
+  &-page-xs {
+    width: 85%;
+    margin-top: 3%;
+    margin-left: 7.5%;
+  }
+
+  &-top-content {
+    margin-bottom: 3%;
+  }
+
+  &-bottom-content {
+    margin-bottom: 5%;
+  }
+
+  &__detail {
+    padding:0;
+
+    //MD
+    @include mq('desktop-md') {
+      h3 {text-align: right;}
+    }
+
+    //XS
+    @include mq('tablet-small-xs') {
+      h3 {font-size: 18px;}
+    }
+
+    //XS-601px
+    @include mq('phablet') {
+      margin-top: -6px;
+
+      h3 {font-size: 17px;}
+    }
+
+    //XS-480px
+    @include mq('phone-wide') {
+      h3{font-size: 14px;}
+    }
+  }
+
+  &-md-slide-xs {
+    //XS-601px
+    @include mq('phablet') {
+      display: none;
+    }
+  }
+
+  &-md-slide-xs-601px {
+    //XS-601px
+    @media only screen and (min-width: 601px) {
+      display: none;
+    }
+  }
+
+
+  @media only screen and (min-width: 1200px) {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+
+  @include mq('tablet-small-xs') {
+    overflow-y: auto;
+  }
+
+  // Sections
+  //@import "sections/skills__title.cls";
+  @import "sections/skills__horizontal-bar-chart/skills__horizontal-bar-chart.cls";
+  @import "sections/skills__doughnut-chart/skills__doughnut-chart.cls";
+  @import "sections/skills__radar-chart/skills__radar-chart.cls";
+
+
+  //@import "sections/skills__content-xs.cls";
+}
+
+

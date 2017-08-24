@@ -1,0 +1,30 @@
+{
+  "name": "app",
+  "main": "app.js",
+  "authors": [
+    "Jeff <JP7Kode@gmail.com>"
+  ],
+  "description": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-chart.js": "^1.1.1",
+    "chart.js": "chartjs#^2.6.0"
+  },
+  "devDependencies": {
+    "angular": "^1.6.5",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "angular-material": "^1.1.4",
+    "angular-route": "^1.6.5",
+    "firebase": "^4.2.0",
+    "angularfire": "^2.3.0"
+  }
+}

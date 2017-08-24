@@ -1,0 +1,537 @@
+
+$slides-clr: #FFEB3B;
+//$slides-clr: #e5e5e5;
+
+// Centering Columns
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+@mixin plug($baseCSS) {
+
+  &_-_slides {
+    margin-top: 15px;
+  }
+
+  &_-_slides--card {
+    width: 32%;
+    height: 490px;
+    opacity: 0;
+    transition: all 3s ease;
+    filter: drop-shadow(-3px 0 3px rgba(black, 1));
+
+    &:before {
+      @include pseudo();
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 350px;
+      //clip-path: polygon(22.5% 0%, 77.5% 0%, 100% 16%, 100% 78%, 78% 100%, 23% 100%, 0% 78%, 0% 26%);
+      clip-path: polygon(17% 0%, 83% 0%, 100% 22%, 100% 78%, 83% 100%, 17% 100%, 0% 78%, 0% 21%);
+      background-color: $slides-clr;
+      z-index: -1;
+      transition: all 1s ease;
+    }
+  }
+
+  &_-_slides--card_--_image {
+    position: absolute;
+    top: 0.4%;
+    left: 0;
+    width: 100%;
+    //filter: drop-shadow(2px 2px 2px black);
+
+    &__img {
+      width: 100%;
+      padding: 5px;
+      clip-path: polygon(18% 0%, 82% 0%, 100% 26%, 100% 74%, 82% 100%, 18% 100%, 0% 74%, 0% 24.5%);
+      //backgroun-color: black;
+    }
+  }
+
+  &_-_slides--card_--_title {
+    width: inherit;
+    text-align: center;
+
+    &:before {
+      @include pseudo();
+      height: 60px;
+      width: 60%;
+      background-color: $slides-clr;
+      left: 0;
+      top: 0;
+      right: 0;
+      margin: 0 auto;
+      clip-path: polygon(100% 0%, 100% 80%, 80% 100%, 30% 100%, 0% 80%, 0 0);
+      z-index: 1;
+    }
+
+    &__h3 {
+      width: 60%;
+      position: absolute;
+      top: 4px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      text-align: center;
+      z-index: 10;
+    }
+  }
+
+  &_-_slides--card_--_details {
+    height: inherit;
+
+    &__h3 {
+      height: inherit;
+      position: absolute;
+      //top: 170px;
+      //top: 3em;
+      top: 8rem;
+      left: 0;
+      right: 0;
+      text-align: center;
+      transition: all 1s ease;
+      width: 95%;
+      margin: 0 auto;
+      z-index: -1;
+    }
+
+    &__i {
+      //width: inherit;
+      text-align: center;
+      position: absolute;
+      bottom: 150px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      transition: all 1s ease;
+    }
+  }
+
+  /*************************************************************************************************
+  * Special Selectors
+  */
+
+  &_-_slides--card {
+
+    // top value change in h3 title
+    &:nth-child(3) {
+      .#{$baseCSS}_-_slides--card_--_title {
+        &__h3 {
+          top: 16px;
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+
+    // Animation delay
+    &:nth-child(1) {
+      animation-delay: 0.8s;
+    }
+    &:nth-child(2) {
+      animation-delay: 2s;
+    }
+    &:nth-child(3) {
+      animation-delay: 3s;
+    }
+  }
+
+  /*************************************************************************************************
+  * Hovered State
+  */
+
+  &_-_slides--card {
+
+    // Octagon shape and text detail animation
+    &:hover {
+      &:before {
+        height: 490px;
+        transition: all 1s ease;
+        clip-path: polygon(17% 0%, 83% 0%, 100% 16%, 100% 84%, 83% 100%, 17% 100%, 0% 84%, 0% 15%);
+      }
+
+      .#{$baseCSS}_-_slides--card_--_details {
+        transition: all 1s ease;
+
+        &__h3 {
+          //top: 320px;
+          //top: 13em;
+          top: 33rem;
+        }
+
+        &__i {
+          bottom: 5px;
+        }
+      }
+    }
+  }
+  //<< end default values >>
+
+  /*-- Hover Responsive --*/
+
+  &_-_slides--card:hover {
+    //MD-1070
+    @media only screen and (max-width: 1070px) {
+      &:before {
+        height: 42rem;
+      }
+
+      .#{$baseCSS}_-_slides--card_--_details {
+        &__h3 {
+          top: 28rem;
+        }
+
+        &__i {
+          bottom: 8rem;
+        }
+      }
+    }
+
+    //SM
+    @include mq('tablet-sm') {
+      &:before {
+        height: 40rem;
+      }
+
+      .#{$baseCSS}_-_slides--card_--_details {
+        &__h3 {
+          top: 27rem;
+        }
+
+        &__i {
+          bottom: 9.5rem;
+        }
+      }
+    }
+
+    //SM-950
+    @media only screen and (max-width: 950px) {
+      &:before {
+        height: 38rem;
+      }
+
+      .#{$baseCSS}_-_slides--card_--_details {
+        &__h3 {
+          top: 24.8rem;
+        }
+
+        &__i {
+          bottom: 11.5rem;
+        }
+      }
+    }
+
+    //SM-860
+    @media only screen and (max-width: 860px) {
+      &:before {
+        height: 36rem;
+      }
+
+      .#{$baseCSS}_-_slides--card_--_details {
+        &__h3 {
+          top: 22.8rem;
+        }
+
+        &__i {
+          bottom: 13.5rem;
+        }
+      }
+    }
+
+    //XS
+    @include mq('tablet-small-xs') {
+      &:before {
+        height: 38rem;
+      }
+
+      .#{$baseCSS}_-_slides--card_--_details {
+        &__h3 {
+          top: 27rem;
+        }
+
+        &__i {
+          bottom: 3rem;
+        }
+      }
+    }
+
+    //XS-601
+    @include mq('phablet') {
+      &:before {
+        height: 34rem;
+      }
+
+      .#{$baseCSS}_-_slides--card_--_details {
+        &__h3 {
+          top: 23rem;
+        }
+
+        &__i {
+          bottom: 6.5rem;
+        }
+      }
+    }
+
+    //SM-530
+    @media only screen and (max-width: 530px) {
+      &:before {
+        height: 32rem;
+      }
+
+      .#{$baseCSS}_-_slides--card_--_details {
+        &__h3 {
+          top: 20.5rem;
+        }
+
+        &__i {
+          bottom: 3.5rem;
+        }
+      }
+    }
+  }
+
+  /*************************************************************************************************
+  * Responsive
+  */
+
+  //MD
+  @include mq('desktop-md') {
+    &_-_slides--card_--_details__h3 {
+      font-size: 1.8em;
+      //top: 5rem;
+    }
+  }
+
+  //MD-1070
+  @media only screen and (max-width: 1070px) {
+    &_-_slides--card {
+      &:before {
+        height: 30rem;
+      }
+
+      &_--_image__img {
+        height: 28rem;
+      }
+
+      &_--_title__h3 {
+        font-size: 1.5em;
+      }
+
+      &_--_details {
+        &__h3 {
+          font-size: 1.5em;
+        }
+
+        &__i {
+          bottom: 19.5rem;
+        }
+      }
+    }
+  }
+
+  //SM
+  @include mq('tablet-sm') {
+    &_-_slides--card {
+      &:before {
+        height: 28rem;
+      }
+
+      &_--_image {
+        top: 0.5rem;
+
+        &__img {
+          height: 26rem;
+        }
+      }
+
+      &_--_details {
+        &__h3 {
+          font-size: 1.3em;
+          top: 6rem;
+          width: 90%;
+          margin: 0 auto;
+        }
+
+        &__i {
+          bottom: 21.3rem;
+        }
+      }
+    }
+  }
+
+  //SM-950
+  @media only screen and (max-width: 950px) {
+    &_-_slides--card {
+      &:before {
+        height: 26rem;
+      }
+
+      &_--_image__img {
+        height: 24rem;
+      }
+
+      &_--_title__h3 {
+        font-size: 1.3em;
+        margin-top: 0.8rem;
+      }
+
+      &_--_details {
+        &__h3 {
+          font-size: 1.4em;
+        }
+
+        &__i {
+          bottom: 23.2rem;
+        }
+      }
+    }
+  }
+
+  //SM-860
+  @media only screen and (max-width: 860px) {
+    &_-_slides--card {
+      &:before {
+        height: 24rem;
+      }
+
+      &_--_image__img {
+        height: 22rem;
+      }
+
+      &_--_title__h3 {
+        font-size: 1.1em;
+        //margin-top: 0.8rem;
+      }
+
+      &_--_details {
+        &__h3 {
+          font-size: 1.3em;
+        }
+
+        &__i {
+          bottom: 25.2rem;
+        }
+      }
+    }
+  }
+
+  //XS
+  @include mq('tablet-small-xs') {
+    &_-_slides--card {
+      width: 41.66666667%;
+      margin: 0 auto;
+      height: 400px;
+
+      &:before {
+        height: 28rem;
+      }
+
+      // Cancelling Animation delay
+      &:nth-child(1) {
+        animation-delay: 0s;
+      }
+      &:nth-child(2) {
+        animation-delay: 0s;
+      }
+      &:nth-child(3) {
+        animation-delay: 0s;
+      }
+
+      &_--_image {
+        top: 0.5rem;
+
+        &__img {
+          height: 26rem;
+        }
+      }
+
+      &_--_title__h3 {
+        font-size: 1.4em;
+      }
+
+      &_--_details {
+        &__h3 {
+          font-size: 1.3em;
+          top: 6rem;
+          width: 90%;
+          margin: 0 auto;
+        }
+
+        &__i {
+          bottom: 12.5rem;
+        }
+      }
+    }
+  }
+
+  //XS-700
+  @media only screen and (max-width: 700px) {
+    &_-_slides--card {
+      width: 48%;
+
+      &_--_details__h3 {
+        font-size: 1.2em;
+      }
+    }
+  }
+
+  //XS-601
+  @include mq('phablet') {
+    &_-_slides--card {
+      &:before {
+        height: 24rem;
+      }
+
+      &_--_image__img {
+        height: 22rem;
+      }
+
+      &_--_title__h3 {
+        font-size: 1.1em;
+      }
+
+      &_--_details {
+        &__i {
+          bottom: 16.5rem;
+        }
+      }
+    }
+  }
+
+  //XS-530
+  @media only screen and (max-width: 530px) {
+    &_-_slides--card {
+      height: 350px;
+
+      &:before {
+        height: 22rem;
+      }
+
+      &_--_image__img {
+        height: 20rem;
+      }
+
+      &_--_title__h3 {
+        //font-size: 1.1em;
+      }
+
+      &_--_details__i {
+        bottom: 13.3rem;
+      }
+    }
+  }
+
+  //XS-480
+  @include mq('phone-wide') {
+    &_-_slides--card {
+      width: 80%;
+    }
+  }
+}
+
+

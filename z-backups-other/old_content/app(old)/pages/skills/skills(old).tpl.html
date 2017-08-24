@@ -1,0 +1,209 @@
+<div class="skills" ng-controller="skillsController">
+    <div class="container page_content">
+        <div class="row">
+
+            <!-- Skills Page Large -->
+            <div class="col-sm-12 hidden-xs skills-page-lg">
+                <div class="row">
+                    <div class=" col-xs-6 col-sm-3 pull-left skills__title title animated fadeIn">
+                        <img src="assets/images/skills-title-tag.png" alt="">
+                        <h1>Skills</h1>
+                    </div>
+                    <div class="col-xs-6 col-sm-9 skills__detail">
+                        <h3>The data on the charts are sourced by a Firebase database</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 skills-bottom-content">
+                        <div class="row">
+                            <div class="col-xs-8 skills__horizontal-bar-chart animated slideInLeft"
+                                 ng-controller="horizontalBarCtrl">
+                                <div class="skills__slides-body">
+                                    <div class="top-bottom"></div>
+                                    <div class="center"></div>
+                                    <div class="left-skirt"></div>
+                                    <div class="right-skirt"></div>
+                                </div>
+
+                                <h3>Dev Tools & Design</h3>
+                                <canvas id="base" class="chart-horizontal-bar"
+                                        chart-data="data1" chart-labels="labels1" chart-options="options1"
+                                        chart-colors="colors1"
+                                        height="220px">
+                                </canvas>
+                            </div>
+
+                            <div class="col-xs-4 skills__2ndSet-data-tables">
+                                <div class="row">
+                                    <div class="col-xs-12 skills__md-slide skills__doughnut-chart animated slideInDown"
+                                         ng-controller="doughnutChartCtrl">
+                                        <div class="skills__slides-body">
+                                            <div class="top-bottom"></div>
+                                            <div class="center"></div>
+                                            <div class="left-skirt"></div>
+                                            <div class="right-skirt"></div>
+                                        </div>
+
+                                        <h3>Frameworks</h3>
+                                        <canvas id="doughnut" class="chart chart-doughnut"
+                                                chart-data="data2" chart-labels="labels2" chart-options="options2"
+                                                chart-colors="colors2"
+                                                height="220px">
+                                        </canvas>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-12 skills__md-slide skills__radar-chart animated slideInUp"
+                                         ng-controller="radarChartCtrl">
+                                        <div class="skills__slides-body">
+                                            <div class="top-bottom"></div>
+                                            <div class="center"></div>
+                                            <div class="left-skirt"></div>
+                                            <div class="right-skirt"></div>
+                                        </div>
+
+                                        <h3>Languages</h3>
+                                        <canvas id="radar" class="chart chart-radar"
+                                                chart-data="data3" chart-options="options3" chart-labels="labels3"
+                                                chart-colors="colors3"
+                                                height="220px">
+                                        </canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- skills-page-lg -->
+
+            <!-- Skills Page XSmall -->
+            <div class="col-xs-12 hidden-sm hidden-md hidden-lg skills-page-xs"><!-- Skills Content Large -->
+                <div class="row"><!-- row skills-top-content -->
+                    <div class="col-xs-12 skills-top-content">
+                        <div class="row">
+                            <div class=" col-xs-4 col-sm-3 pull-left skills__title title animated fadeIn">
+                                <img src="assets/images/skills-title-tag.png" alt="">
+                                <h1>Skills</h1>
+                            </div>
+                            <div class="col-xs-8 col-sm-9 skills__detail">
+                                <h3>The data on the charts are sourced by a Firebase database</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end row skills-top-content -->
+
+                <div class="row"><!-- row skills-bottom-content -->
+                    <div class="col-xs-12 skills-bottom-content">
+                        <div class="row">
+                            <div class="col-xs-12 skills__horizontal-bar-chart animated slideInLeft"
+                                 ng-controller="horizontalBarCtrl">
+                                <div class="skills__slides-body">
+                                    <div class="top-bottom"></div>
+                                    <div class="center"></div>
+                                    <div class="left-skirt"></div>
+                                    <div class="right-skirt"></div>
+                                </div>
+
+                                <h3>Dev Tools & Design</h3>
+                                <canvas id="base" class="chart-horizontal-bar"
+                                        chart-data="data1" chart-labels="labels1" chart-options="options1"
+                                        chart-colors="colors1"
+                                        height="220px">
+                                </canvas>
+                            </div>
+                        </div><!-- end row skills__horizontal-bar-chart -->
+
+
+                        <div class="row">
+                            <div class="col-xs-12 skills-md-slide-xs">
+                                <div class="row">
+                                    <div class="col-xs-6 skills__md-slide skills__doughnut-chart animated slideInDown"
+                                         ng-controller="doughnutChartCtrl">
+                                        <div class="skills__slides-body">
+                                            <div class="top-bottom"></div>
+                                            <div class="center"></div>
+                                            <div class="left-skirt"></div>
+                                            <div class="right-skirt"></div>
+                                        </div>
+
+                                        <h3>Frameworks</h3>
+                                        <canvas id="doughnut" class="chart chart-doughnut"
+                                                chart-data="data2" chart-labels="labels2" chart-options="options2"
+                                                chart-colors="colors2"
+                                                height="220px">
+                                        </canvas>
+                                    </div>
+
+                                    <div class="col-xs-6 skills__md-slide skills__radar-chart animated slideInUp"
+                                         ng-controller="radarChartCtrl">
+                                        <div class="skills__slides-body">
+                                            <div class="top-bottom"></div>
+                                            <div class="center"></div>
+                                            <div class="left-skirt"></div>
+                                            <div class="right-skirt"></div>
+                                        </div>
+
+                                        <h3>Languages</h3>
+                                        <canvas id="radar" class="chart chart-radar"
+                                                chart-data="data3" chart-options="options3" chart-labels="labels3"
+                                                chart-colors="colors3"
+                                                height="220px">
+                                        </canvas>
+                                    </div>
+                                </div>
+                            </div><!-- end skills-md-slide-xs -->
+
+                            <div class="col-xs-12 skills-md-slide-xs-601px">
+                                <div class="row">
+                                    <div class="col-xs-12 skills__md-slide skills__doughnut-chart animated slideInDown"
+                                         ng-controller="doughnutChartCtrl">
+                                        <div class="skills__slides-body">
+                                            <div class="top-bottom"></div>
+                                            <div class="center"></div>
+                                            <div class="left-skirt"></div>
+                                            <div class="right-skirt"></div>
+                                        </div>
+
+                                        <h3>Frameworks</h3>
+                                        <canvas id="doughnut" class="chart chart-doughnut"
+                                                chart-data="data2" chart-labels="labels2" chart-options="options2"
+                                                chart-colors="colors2"
+                                                height="220px">
+                                        </canvas>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-12 skills__md-slide skills__radar-chart animated slideInUp"
+                                         ng-controller="radarChartCtrl">
+                                        <div class="skills__slides-body">
+                                            <div class="top-bottom"></div>
+                                            <div class="center"></div>
+                                            <div class="left-skirt"></div>
+                                            <div class="right-skirt"></div>
+                                        </div>
+
+                                        <h3>Languages</h3>
+                                        <canvas id="radar" class="chart chart-radar"
+                                                chart-data="data3" chart-options="options3" chart-labels="labels3"
+                                                chart-colors="colors3"
+                                                height="220px">
+                                        </canvas>
+                                    </div>
+                                </div>
+                            </div><!-- end skills-md-slide-xs-601px -->
+                        </div>
+                    </div>
+                </div><!-- end row skills-bottom-content -->
+            </div><!-- end skills-page-xs -->
+
+        </div><!-- end first row -->
+        <div class="return-btn" ng-click="skillsPageLeave('/home')" ng-mouseover="returnText=true"
+             ng-mouseleave="returnText=false">
+            <h4 ng-show="returnText">return</h4>
+        </div>
+
+    </div><!-- end container -->
+</div><!--end skills-->

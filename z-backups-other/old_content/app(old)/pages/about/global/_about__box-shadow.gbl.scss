@@ -1,0 +1,6 @@
+@import "../../../components/hot-kit/hot-kit";
+
+// Extend Value
+.about__box-shadow {
+  @include body-shadow($orientation:down,$distance:-3px);
+}

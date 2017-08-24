@@ -1,0 +1,26 @@
+
+html {
+  overflow: hidden;
+}
+
+// Defaulting a tags
+a {
+  color: inherit;
+
+  &:hover {
+    color: inherit;
+  }
+}
+
+p {
+  font-family: 'Ubuntu Light', Fallback, sans-serif;
+  font-weight: 900;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import "typography.smcs";
+
+
+
+
+

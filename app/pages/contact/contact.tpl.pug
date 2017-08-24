@@ -1,0 +1,52 @@
+div.contact(ng-controller='contactController')
+    div.container.page_content
+        div.row
+            div.col-xs-6.col-sm-4.col-md-3.col-centered.contact--lyt-header.contact__title.title
+                img(src='assets/images/contact-title-tag.png' alt='')
+                h1 Contact
+
+        // LG - MD
+        div.row
+            div.col-md-12.hidden-xs.hidden-sm
+                div.row
+                    div.col-md-2.contact--lyt-socialLinks
+                        include sections/socialLinks/pug/solcialLinks.ptl.pug
+                        +plug('contact_-_')
+
+                    div.col-md-8.contact--lyt-form
+                        include sections/form/pug/form.ptl.pug
+                        +plug('contact_-_')
+
+                    div.col-md-2.contact--lyt-fabInfoBtns
+                        include sections/fabInfoBtns/pug/fabInfoBtns.ptl.pug
+                        +plug('contact_-_')
+
+        // SM
+        div.row
+            div.col-sm-12.hidden-md.hidden-lg
+                div.row
+                    div.col-sm-12.contact--lyt-form
+                        include sections/form/pug/form.ptl.pug
+                        +plug('contact_-_')
+
+                    // Visible at 600px
+                    div.col-sm-12.contact--lyt-form-XS-600
+                        include sections/form/pug/form.XS-600.ptl.pug
+                        +plug('contact_-_')
+
+                div.row
+                    div.col-sm-12.contact--lyt-fabInfoBtns
+                        include sections/fabInfoBtns/pug/fabInfoBtns.SM.ptl.pug
+                        +plug('contact_-_')
+
+                div.row
+                    div.col-sm-12.contact--lyt-socialLinks
+                        include sections/socialLinks/pug/solcialLinks.SM.ptl.pug
+                        +plug('contact_-_')
+
+
+    div.return-btn(ng-click="contactPageLeave('/home')" ng-mouseover='returnText=true'
+        ng-mouseleave='returnText=false')
+        h4(ng-show='returnText') return
+
+

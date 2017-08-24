@@ -1,0 +1,16 @@
+
+// Centering Columns
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+// Centering Page Content
+.page_content {
+  @media only screen and (min-width: 1200px) {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+}

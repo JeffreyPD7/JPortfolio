@@ -1,0 +1,80 @@
+<div class="projects" ng-controller="projectsController">
+    <div class="container page_content">
+        <div class="row">
+            <div class="col-xs-offset-9 col-xs-3 pull-right projects__title title">
+                <img src="assets/images/projects-title-tag.png" alt="">
+                <h1>Projects</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 projects__slides col-centered">
+                <div class="row">
+                    <div class="col-xs-4 projects__slides_card animated slideInRight">
+                        <a href="">
+                            <div class="projects__slides_card-image">
+                                <img src="assets/images/beethoven.png" alt="" height="320px" width="360px">
+                            </div>
+
+                            <div class="projects__slides_card-title">
+                                <h3>Beethoven Tribute</h3>
+                            </div>
+
+                            <div class="projects__slides_card-details">
+                                <h3>This project is an FCC challenge set to create a tribute page utilizing only HTML
+                                    and
+                                    CSS</h3>
+
+                                <i class="fa fa-bars fa-1x" aria-hidden="true"></i>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-xs-4 projects__slides_card animated slideInRight">
+                        <div class="projects__slides_card-image">
+                            <img src="assets/images/wnb_autosales.png" alt="" height="320px" width="360px">
+
+                            <!--<div class="projects__slides_card-image&#45;&#45;modal" ng-show="modalImg">-->
+                            <!--<img src="app/assets/images/wnb_autosales.png" alt="" height="320px" width="360px">-->
+                            <!--</div>-->
+                        </div>
+
+                        <div class="projects__slides_card-title">
+                            <h3>White & Blue Autosales</h3>
+                        </div>
+
+                        <div class="projects__slides_card-details">
+                            <h3>An e-commerce car dealership website that is on the early stages, and it's not online because of it</h3>
+
+                            <i class="fa fa-bars fa-1x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-4 projects__slides_card animated slideInRight">
+                        <div class="slides-content">
+                            <div class="projects__slides_card-image">
+                                <img src="assets/images/currently_under_work.png" alt="" height="320px"
+                                     width="360px">
+                            </div>
+
+                            <div class="projects__slides_card-title">
+                                <h3>Null</h3>
+                            </div>
+
+                            <div class="projects__slides_card-details">
+                                <h3>A competition web app which am almost done with, but cannot present at the moment</h3>
+
+                                <i class="fa fa-bars fa-1x" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="return-btn" ng-click="projectsPageLeave('/home')" ng-mouseover="returnText=true"
+         ng-mouseleave="returnText=false">
+        <h4 ng-show="returnText">return</h4>
+    </div>
+</div>

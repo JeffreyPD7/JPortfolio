@@ -1,0 +1,30 @@
+
+.skills .container {
+  @media only screen and (min-width:1200px) and (max-width: 1300px) {
+    width: 1070px;
+  }
+
+  @media only screen and (min-width:950px) and (max-width: 1070px) {
+    width: 860px;
+    //height: 80%;
+  }
+
+  @media only screen and (min-width:860px) and (max-width: 950px) {
+    width: 770px;
+  }
+
+  @media only screen and (min-width:768px) and (max-width: 860px) {
+    width: 670px;
+  }
+
+  //XS
+  @include mq('tablet-small-xs') {
+    width: 90%;
+  }
+
+  //XS-601px
+  @include mq('phablet') {
+    width: 80%;
+  }
+}
+
