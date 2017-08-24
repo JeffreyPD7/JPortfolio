@@ -1,6 +1,0 @@
-@import "../../../components/hot-kit/hot-kit";
-
-// Extend Value
-.skills__box-shadow {
-  @include body-shadow($orientation:right,$opacity:0.1);
-}
